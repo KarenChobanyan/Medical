@@ -1,0 +1,245 @@
+.myNoteListMainDiv {
+    width: 1000px;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noteListNavDiv {
+    width: 1000px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.noteNav {
+    width: 150px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+    color: #A0A0A0;
+    cursor: default;
+    transition: 0.1s;
+}
+
+.noteNav:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.note {
+    width: 800px;
+    height: 220px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 0.5px solid #D1D1D1;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.noteFirstLine {
+    width: 770px;
+    height: 35px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noteDate {
+    width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.noteDateInfo {
+    width: 120px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.noteDateIkon {
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+}
+
+.noteDateTitle {
+    font-style: normal;
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 144.4%;
+    letter-spacing: -0.3px;
+    color: #4F4F4F;
+}
+
+.noteScheduled {
+    width: 123px;
+    height: 24px;
+    background: #FFAB43;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: #504F4F;
+    cursor: default;
+}
+
+.noteScheduled:hover {
+    text-decoration: underline;
+}
+
+.noteDone {
+    width: 123px;
+    height: 24px;
+    background: #1BD741;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: #504F4F;
+    cursor: default;
+}
+
+.noteDone:hover {
+    text-decoration: underline;
+}
+
+.noteSecondlineDiv {
+    width: 770px;
+    height: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noteDoctorInfoSheet {
+    width: 390px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noteDoctorImage {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-size: cover;
+    
+    
+}
+
+.noteDoctorInfo {
+    width: 220px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translateX(-10px);
+}
+
+.noteDoctorName {
+    width: 180px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: #4F4F4F;
+}
+
+.noteDoctorTitle {
+    width: 220px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: #AAAAAA;
+}
+
+.noteDoctorExperience {
+    width: 180px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: #4F4F4F;
+}
+
+.noteButtonDiv {
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.noteBlueButton {
+    width: 200px;
+    height: 34px;
+    background: #56CCF2;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    cursor: default;
+    transition: 0.1s;
+}
+
+.noteBlueButton:hover{
+  text-decoration: underline;
+}
+
+.noteWhiteButton{
+    width: 200px;
+    height: 34px;
+    background: #F6F8FB;
+    border-radius: 5px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #A7A7A7;
+    cursor: default;
+    transition: 0.1s;
+}
+
+.noteWhiteButton:hover{
+    text-decoration: underline;
+
+}

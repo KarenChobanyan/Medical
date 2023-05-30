@@ -1,0 +1,1237 @@
+{
+    "count": 10,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "id": 793,
+            "first_name": {
+                "ru": "Андриан",
+                "en": "Andrian"
+            },
+            "last_name": {
+                "ru": "Хириак",
+                "en": "Chiriac"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/10/foto_profil_1_hxKaH8hcsq.jpg",
+            "date_of_birth": "1978-02-15",
+            "user_categories": [
+                {
+                    "id": 1397,
+                    "category": {
+                        "id": 12,
+                        "title": {
+                            "ru": "Эндокринолог",
+                            "ro": "Endocrinolog",
+                            "en": "Endocrinologist"
+                        },
+                        "description": {
+                            "ru": "Изучает строение и работу желез внутренней секреции",
+                            "ro": "Se ocupă de problemele hormonale și complicațiile acestora",
+                            "en": "Studying the structure and function of the endocrine glands"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит эндокринолог ? Эндокринолог – это врач, который занимается диагностикой и лечением гормональных нарушений и их осложнений. Таким образом, он способен оценить работу гормональной системы и лечить любые нарушения, которые она может вызвать.",
+                            "ro": "<h3><strong>Ce tratează medicul endocrinolog ?</strong></h3><p><br></p><p>Un <strong>endocrinolog </strong>este un medic care se ocupă de diagnosticul și tratamentul problemelor hormonale și complicațiile acestora. Prin urmare, acesta este capabil să evalueze funcționarea sistemului hormonal și să trateze tulburările pe care le poate genera. Într-adevăr, hormonii controlează întreagă funcționare a organismului. Medicul endocrinolog va verifica buna funcționare a acestor sisteme de reglare, cantitatea acestor hormoni și va trata orice patologie legată de dezechilibrul hormonal.</p><p><br></p><h3><strong>Ce face medicul endocrinolog?</strong></h3><p><br></p><p><strong>Endocrinologul </strong>consultă pacienți de sex masculin și feminin de toate vârstele. Fie că este vorba despre tinere adolescente, bărbați de vârstă mijlocie sau chiar bebeluși.</p><p><br></p><p>Medicul endocrinolog își ascultă pacientul, îl auscultează dacă este necesar, dar în majoritatea cazurilor îi&nbsp;prescrie analizele de sânge, urină, radiografie, scanner etc., pentru a stabili cel mai bine diagnosticul și pentru a prescrie tratamentul corect.&nbsp;</p><p><br></p><p>Uneori, pacientul va trebui doar să-și schimbe stilul de viață pentru a-și pune în ordine sistemul hormonal ca să nu mai sufere de neplăcerile provocate de acesta. Un simplu exemplu este excesul de colesterol.</p><p><br></p><h3><strong style=\"background-color: rgb(255, 255, 255);\">Ce tratează medicul endocrinolog?</strong></h3><p><br></p><p>Probleme de sanatate tratate de <strong>endocrinolog </strong>sunt urmatoarele : diabetul, distiroidismul (adică o disfuncție a glandei tiroide), noduli și gușă, hiperparatiroidismul primar (o boală endocrină datorată unei dereglări a glandelor paratiroide), obezitatea, hipersecreție sau o lipsă de secreție hormonală,&nbsp;problemele suprarenale, bolile hormonale legate de infertilitate, <span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</span></p>",
+                            "en": "What does an endocrinologist treat? An endocrinologist is a doctor who diagnoses and treats hormonal disorders and their complications. Thus, he is able to evaluate the functioning of the hormonal system and treat any disorders that it may cause."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/thyroid_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 793
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-05-16T14:00:00Z",
+            "experience": "<p>Medic endocrinolog maturi și copii, categorie superioară de calificare, experiență profesională 17 ani.</p><p><br></p><ul><li>Diagnosticul și tratamentul diabetului zaharat la maturi și copii, inclusiv program de educație în diabet și utilizarea noilor tehnologii: senzori de glicemie și pompe de insulină;</li><li>Tratamentul obezității cu complicațiile ei și consiliere nutrițională;</li><li>Diagnosticul și tratamentul patologiilor glandei tiroide;</li><li>Evaluarea și tratamentul copiilor cu probleme de creștere și pubertate;</li><li>Diagnosticul, tratamentul și supravegherea pacienților cu maladii endocrine rare, inclusiv în bolile genetice: patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</li></ul><p><br></p><p>În timul consultației trebuie să fiți gata de a comunica datele dvs. despre simptomele prezentate, istoricul bolii, tratamentul administrat și rezultatele investigațiilor efectuate. În rezultatul consultației veți putea beneficia de asistență calificată pentru clarificarea diagnosticului, discuția planului de examinare, interpretarea rezultatelor investigațiilor, evaluarea schemelor de tratament, educație terapeutică și consiliere nutrițională, urmărire în dinamică.</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2005,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 214219,
+                    "weekday": 1,
+                    "start": "2023-05-16T14:00:00Z",
+                    "end": "2023-05-16T14:25:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214220,
+                    "weekday": 1,
+                    "start": "2023-05-16T14:25:00Z",
+                    "end": "2023-05-16T14:50:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214221,
+                    "weekday": 1,
+                    "start": "2023-05-16T14:50:00Z",
+                    "end": "2023-05-16T15:15:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214222,
+                    "weekday": 1,
+                    "start": "2023-05-16T15:15:00Z",
+                    "end": "2023-05-16T15:40:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214223,
+                    "weekday": 1,
+                    "start": "2023-05-16T15:40:00Z",
+                    "end": "2023-05-16T16:05:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214224,
+                    "weekday": 1,
+                    "start": "2023-05-16T16:05:00Z",
+                    "end": "2023-05-16T16:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214225,
+                    "weekday": 1,
+                    "start": "2023-05-16T16:30:00Z",
+                    "end": "2023-05-16T16:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214285,
+                    "weekday": 2,
+                    "start": "2023-05-17T14:00:00Z",
+                    "end": "2023-05-17T14:25:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214286,
+                    "weekday": 2,
+                    "start": "2023-05-17T14:25:00Z",
+                    "end": "2023-05-17T14:50:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214287,
+                    "weekday": 2,
+                    "start": "2023-05-17T14:50:00Z",
+                    "end": "2023-05-17T15:15:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214288,
+                    "weekday": 2,
+                    "start": "2023-05-17T15:15:00Z",
+                    "end": "2023-05-17T15:40:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214289,
+                    "weekday": 2,
+                    "start": "2023-05-17T15:40:00Z",
+                    "end": "2023-05-17T16:05:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214290,
+                    "weekday": 2,
+                    "start": "2023-05-17T16:05:00Z",
+                    "end": "2023-05-17T16:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214291,
+                    "weekday": 2,
+                    "start": "2023-05-17T16:30:00Z",
+                    "end": "2023-05-17T16:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 793,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 855,
+            "first_name": {
+                "ru": "Зинаида",
+                "en": "Zinaida"
+            },
+            "last_name": {
+                "ru": "Сарбу",
+                "en": "Sarbu"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/31/foto_mea.jpg",
+            "date_of_birth": "1965-03-01",
+            "user_categories": [
+                {
+                    "id": 1375,
+                    "category": {
+                        "id": 4,
+                        "title": {
+                            "ru": "Акушер-гинеколог",
+                            "ro": "Obstetrician-Ginecolog",
+                            "en": "Obstetrician-gynecologist"
+                        },
+                        "description": {
+                            "ru": "Женская консультация",
+                            "ro": "Sănătatea reproductivă a femeii",
+                            "en": "Women's consultation"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач акушер-гинеколог ? Гинекология – раздел медицины, изучающий физиологию и лечение заболеваний женской репродуктивной системы. Таким образом, гинеколог является привилегированным собеседником женщин на ключевых этапах их сексуальной жизни, от полового созревания до менопаузы",
+                            "ro": "<h3><strong>Ce tratează medicul obstetrician-ginecolog ?</strong></h3><p><br></p><p><strong>Ginecologia</strong> <span style=\"background-color: rgb(255, 255, 255);\">este ramura medicinei care se ocupă cu fiziologia și tratarea afecțiunilor aparatului genital feminin.</span> Medicul <strong>ginecolog </strong>este deci interlocutorul privilegiat al femeilor în fazele cheie ale vieții lor sexuale, de la pubertate până la menopauză. El se ocupă de probleme legate de menstruație sau menopauză, contracepție, boli ale sânului, uterului, ovarelor, trompelor uterine și organelor genitale externe, precum și de cancerele feminine.</p><p><br></p><p>Ginecologia <strong>obstetrică </strong>se referă la monitorizarea sarcinii și a nașterii. Un medic <strong>obstetrician</strong> are grijă de femeie dar și de copilul pe care îl poartă, asistat de o moașă și/sau de o asistentă. El efectuează examinările și stabilește diagnosticul prenatal.</p><h3><br></h3><p>Medicul <strong>obstetrician-ginecolog</strong> beneficiază de asemenea de o pregătire extinsă în chirurgie permițându-i să efectueze intervenții în timpul nașterii dar și în contextul altor afecțiuni, fie că este vorba despre o tumoare benignă (chist mamar, endometrioză, etc.) sau canceroasă (sân, uter, ovare), în chirurgia funcțională uro-ginecologică sau pelviană.</p><h3><br></h3><h3><strong>Ce&nbsp;face medicul obstetrician-ginecolog?</strong></h3><p><br></p><p>În colaborare cu echipa sa și în special cu moașele, monitorizează sarcina și dezvoltarea armonioasă a fătului. El supraveghează și intervine, dacă este necesar, în timpul nașterii. În caz de subfertilitate sau infertilitate, cuplurile care intenționează să aibă un copil pot găsi o soluție cu el prin medicină reproductivă : stimularea ovulației, inseminarea intrauterină, fertilizare în vitro etc. În timpul sarcinii se ocupă de diagnosticul prenatal, care constă în depistarea înainte de naștere a unei posibile patologii care afectează copilul nenăscut : malformație sau boală genetică. Pentru a stabili dacă fătul este purtător de o patologie, se pot face diferite tipuri de examinări : ecografie fetală și ecocardiografie, amniocenteză etc. Dincolo de urmărirea sarcinii și a actelor chirurgicale ale acesteia, medicul ginecolog-obstetrician poate efectua și alte intervenții medicale (monitorizarea colului uterin, plasarea implanturilor contraceptive, avort).</p>",
+                            "en": "What does an obstetrician-gynecologist treat? Gynecology is a branch of medicine that studies the physiology and treatment of diseases of the female reproductive system. Thus, the gynecologist is the privileged interlocutor of women at key stages of their sexual life, from puberty to menopause."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 855
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-16T17:00:00Z",
+            "experience": "<p><span style=\"background-color: transparent; color: rgb(0, 0, 0);\">Medic obstetrician-ginecolog maturi și copii, Doctor în științe medicale,conferențiar universitar, experiență profesională 31 ani.</span></p><p><br></p><ul><li><span style=\"background-color: transparent;\">Infertilitate</span></li><li><span style=\"background-color: transparent;\">Hiperplazie de endometru</span></li><li><span style=\"background-color: transparent;\">Endometrioză</span></li><li><span style=\"background-color: transparent;\">Sindromul ovarelor polichistice</span></li><li><span style=\"background-color: transparent;\">Hiperandrogenism</span></li><li><span style=\"background-color: transparent;\">Insuficientă ovariană prematură</span></li><li><span style=\"background-color: transparent;\">Sindrom climacteric menopauzal</span></li><li><span style=\"background-color: transparent;\">Dismenoree</span></li><li><span style=\"background-color: transparent;\">Miom uterin</span></li><li><span style=\"background-color: transparent;\">Displazie hormonală a glandelor mamare</span></li></ul><p><br></p><p><em style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\">Atenție</em><span style=\"background-color: rgb(255, 255, 255); color: rgb(0, 0, 0);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1991,
+            "price": 750.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 213350,
+                    "weekday": 1,
+                    "start": "2023-05-16T17:00:00Z",
+                    "end": "2023-05-16T17:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 855,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 213351,
+                    "weekday": 2,
+                    "start": "2023-05-17T17:00:00Z",
+                    "end": "2023-05-17T17:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 855,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 213352,
+                    "weekday": 3,
+                    "start": "2023-05-18T17:00:00Z",
+                    "end": "2023-05-18T17:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 855,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 213353,
+                    "weekday": 4,
+                    "start": "2023-05-19T17:00:00Z",
+                    "end": "2023-05-19T17:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 855,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 213354,
+                    "weekday": 5,
+                    "start": "2023-05-20T06:00:00Z",
+                    "end": "2023-05-20T06:55:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 855,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 785,
+            "first_name": {
+                "ru": "Ирина",
+                "en": "Irina"
+            },
+            "last_name": {
+                "ru": "Трибой",
+                "en": "Triboi"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/14/irina_triboi.png",
+            "date_of_birth": "1987-12-08",
+            "user_categories": [
+                {
+                    "id": 1417,
+                    "category": {
+                        "id": 2,
+                        "title": {
+                            "ru": "Педиатр",
+                            "ro": "Pediatru",
+                            "en": "Pediatrician"
+                        },
+                        "description": {
+                            "ru": "Врач широкой специализации, работающий с детьми и подростков",
+                            "ro": "Medic generalist care lucrează cu copii și adolescenți",
+                            "en": "Врач широкой специализации, работающий с детьми и подростков"
+                        },
+                        "full_description": {
+                            "ru": "Педиатр – это специалист, который занимается изучением и лечением заболеваний, встречающихся у детей и подростков. Он играет важную роль в наблюдении за физиологическим и психологическим развитием детей и подростков. Он также занимается профилактикой, диагностикой и лечением детских патологий, которые могут повлиять на здоровье ребенка.",
+                            "ro": "<p>Medicul <strong>pediatru</strong> este specialistul care <span style=\"background-color: rgb(255, 255, 255);\">se ocupă cu studiul și tratarea bolilor întâlnite la copii și adolescenți. Acesta joacă un rol important </span>în monitorizarea dezvoltării fiziologice și psihologice a copiilor și adolescenților. El se ocupă de asemenea de prevenirea, diagnosticul și tratamentul patologiilor copilăriei care pot afecta sănătatea copilului.</p><p><br></p><h3><strong>Ce face un medic pediatru?</strong></h3><p><br></p><p>Medicul <strong>Pediatru</strong> este interlocutorul privilegiat al părinților. Acesta <span style=\"background-color: rgb(255, 255, 255);\">îi sfătuiește cu privire la alimentație, somn, igienă, prevenirea accidentelor și alte momente importante pe parcursul creșterii copilului. De asemenea, este responsabil pentru depistarea precoce a anumitor patologii și urmărirea vaccinării. În cazul în care copilul prezintă simptome de boli, medicul întreabă detalii despre afecțiunea în cauză, efectuează dacă este necesar un examen clinic și prescrie examinări suplimentare (analize de sânge, analize de urină, ecografii etc.), pentru a determina tratamentul adaptat contextului clinic și vârstei copilului.</span></p><p><br></p><h3><strong>Ce tratează un medic pediatru?</strong></h3><p><br></p><p>Pe lângă urmărirea regulată pe care o asigură, medicul pediatru își vede pacienții din mai multe motive.</p><p><br></p><p>Enumerăm mai jos cele mai des întâlnite motive:</p><ul><li>probleme infecțioase, cum ar fi meningita;</li><li>otrăvire;</li><li>alergiile;</li><li>trauma;</li><li>tulburări metabolice;</li><li>probleme de dezvoltare;</li><li>deficite motorii;</li><li>dificultăți de învățare;</li><li>boli inflamatorii;</li><li>etc.</li></ul>",
+                            "en": "A pediatrician is a specialist who studies and treats diseases that occur in children and adolescents. It plays an important role in monitoring the physiological and psychological development of children and adolescents. He is also involved in the prevention, diagnosis and treatment of childhood pathologies that can affect the health of the child."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/Group_25.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 785
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-17T07:00:00Z",
+            "experience": "<p>Medic pediatru copii, experiență profesională 10 ani. </p><p><br></p><p>Semnele generale de pericol la copil care sînt considerate urgențe și care nu pot fi consultate la distanță:</p><ol><li>Copilul nu poate bea sau suge piept;</li><li>Vomită după fiecare alimentație;</li><li>Are&nbsp;convulsii;</li><li>E letargic (foarte somnolent) sau inconştient;</li><li>Are febră (peste 38 C) sau temperatură sub 36 C;&nbsp;</li><li>Devine brusc palid sau se învineţeşte;&nbsp;</li><li>Se mişcă mai puţin decât de obicei;</li><li>Plânge fără întrerupere şi refuză să fie alăptat.</li><li>Respiră greu, zgomotos sau are respitație accelerată:&nbsp;</li></ol><ul><li>pentru copilul până la&nbsp;2 luni, mai mult de 60 de respirații pe minut;</li><li>copilul cu vârstă cuprinsă între 2 luni și 12 luni, mai mult de 50 de respirații pe minut;&nbsp;</li><li>copilul de la 12 luni până la 5 ani, mai mult de 40 de respirații pe minut.</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2012,
+            "price": 350.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 214281,
+                    "weekday": 2,
+                    "start": "2023-05-17T07:00:00Z",
+                    "end": "2023-05-17T07:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 785,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214282,
+                    "weekday": 2,
+                    "start": "2023-05-17T07:30:00Z",
+                    "end": "2023-05-17T08:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 785,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214283,
+                    "weekday": 2,
+                    "start": "2023-05-17T08:00:00Z",
+                    "end": "2023-05-17T08:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 785,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214284,
+                    "weekday": 2,
+                    "start": "2023-05-17T08:30:00Z",
+                    "end": "2023-05-17T09:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 785,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 809,
+            "first_name": {
+                "ru": "Олимпия",
+                "en": "Olimpia"
+            },
+            "last_name": {
+                "ru": "Герман",
+                "en": "Gherman"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/gherman_bis2-min.png",
+            "date_of_birth": "1980-07-23",
+            "user_categories": [
+                {
+                    "id": 1402,
+                    "category": {
+                        "id": 32,
+                        "title": {
+                            "ru": "Пневмолог",
+                            "ro": "Pneumolog",
+                            "en": "pneumologist"
+                        },
+                        "description": {
+                            "ru": "Занимается диагностикой и лечением  заболеваний органов дыхания",
+                            "ro": "Se ocupă de diagnosticul și tratamentul bolilor sistemului respirator",
+                            "en":"Engaged in the diagnosis and treatment of diseases of the respiratory system"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач пульмонолог ? Пульмонолог — это врач, специализирующийся на лечении респираторных заболеваний и легочных инфекций, которые поражают следующие органы: легкие, бронхи, плевра (которая является «покрытием» легких и включает 2 слоя, висцеральную и париетальную плевру).",
+                            "ro": "<h3><strong>Ce tratează medicul pneumolog ?</strong></h3><p><br></p><p><strong>Pneumologul</strong> este medicul specializat în tratarea bolilor respiratorii și infecțiilor pulmonare ce afectează următoarele organe : plămânii, bronhii, pleura (care constituie „învelișul” plămânilor și cuprinde 2 straturi, pleura viscerală și pleura parietală).</p><p><br></p><h3><strong>Ce face medicul pneumolog?</strong></h3><p><br></p><p>Pentru ajunge la un diagnostic și a identifica originea tulburărilor, medicul pneumolog efectuează următorii pași :</p><ul><li>chestionează pacientul pentru a află natura tulburărilor, data apariției și modul lor de declanșare (efort, frig etc.), gradul de disconfort resimțit;</li><li>întreabă despre istoricul pacientului, factorii de risc ai acestuia (fumat, expunerea profesională etc.), istoricul familial;</li><li>pune întrebări despre mediu și stilul de viață (loc de trai, animale de companie, călătorii recente etc.);</li><li>practică o primă auscultație, folosind un stetoscop;</li><li>poate recurge la examinări suplimentare (radiografie, de exemplu).</li></ul><p><br></p><h3><strong>Când să consultați un pneumolog?</strong></h3><p><br></p><p>Medicul pneumolog poate trata multe patologii cum ar fi :</p><ul><li>astm;</li><li>alergii respiratorii;</li><li>insuficiență respiratorie ;</li><li>boală pulmonară obstructivă cronică ;</li><li>hipertensiune arterială pulmonară;</li><li>embolie pulmonară ;</li><li>pleurezie;</li><li>tulburări respiratorii legate de boli sistemice (vasculită, conectivită, sarcoidoză etc.);</li><li>boli infecțioase, cum ar fi tuberculoză , pneumonia sau abcesul pulmonar;</li><li>boli genetice, cum ar fi fibroză chistică (fibroză chistică);</li><li>tulburări de somn (apnee, sforăit);</li><li>boli respiratorii profesionale, datorate expunerii la anumite substanțe (azbest, chimicale, praf etc.);</li><li>boli legate de fumat (emfizem, bronșită cronică etc.);</li><li>boli neuromusculare cu simptome respiratorii;</li><li>resuscitare, terapie intensivă.</li></ul>",
+                            "en":"What does a pulmonologist treat? A pulmonologist is a doctor who specializes in the treatment of respiratory diseases and lung infections that affect the following organs: lungs, bronchi, pleura (which is the “covering” of the lungs and includes 2 layers, the visceral and parietal pleura)."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/15/vectorpaint_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 809
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-17T07:00:00Z",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic pneumolog maturi , experiență profesională 18 ani, care se ocupă cu tratamentul patologiilor respiratorii :</span></p><p><br></p><ul><li>Pneumonii</li><li>Bronșite</li><li>Astm bronșic</li><li>Tuberculoză</li><li>Bronșită cronică obstructivă</li><li>Covid-19</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>﻿Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 214292,
+                    "weekday": 2,
+                    "start": "2023-05-17T07:00:00Z",
+                    "end": "2023-05-17T07:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214293,
+                    "weekday": 2,
+                    "start": "2023-05-17T07:30:00Z",
+                    "end": "2023-05-17T08:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214294,
+                    "weekday": 2,
+                    "start": "2023-05-17T08:00:00Z",
+                    "end": "2023-05-17T08:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214295,
+                    "weekday": 2,
+                    "start": "2023-05-17T08:30:00Z",
+                    "end": "2023-05-17T09:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214296,
+                    "weekday": 2,
+                    "start": "2023-05-17T09:00:00Z",
+                    "end": "2023-05-17T09:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214297,
+                    "weekday": 2,
+                    "start": "2023-05-17T09:30:00Z",
+                    "end": "2023-05-17T10:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214337,
+                    "weekday": 4,
+                    "start": "2023-05-19T11:00:00Z",
+                    "end": "2023-05-19T11:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214338,
+                    "weekday": 4,
+                    "start": "2023-05-19T11:30:00Z",
+                    "end": "2023-05-19T12:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214339,
+                    "weekday": 4,
+                    "start": "2023-05-19T12:00:00Z",
+                    "end": "2023-05-19T12:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214340,
+                    "weekday": 4,
+                    "start": "2023-05-19T12:30:00Z",
+                    "end": "2023-05-19T13:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214341,
+                    "weekday": 4,
+                    "start": "2023-05-19T13:00:00Z",
+                    "end": "2023-05-19T13:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214342,
+                    "weekday": 4,
+                    "start": "2023-05-19T13:30:00Z",
+                    "end": "2023-05-19T14:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 809,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 786,
+            "first_name": {
+                "ru": "Анджела",
+                "en": "Angela"
+            },
+            "last_name": {
+                "ru": "Селиванов",
+                "en": "Selivanov"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/18/angela_selivanov_bis-min.png",
+            "date_of_birth": "1976-04-23",
+            "user_categories": [
+                {
+                    "id": 1393,
+                    "category": {
+                        "id": 1,
+                        "title": {
+                            "ru": "Терапевт",
+                            "ro": "Internist, Terapeut",
+                            "en": "Therapist"
+                        },
+                        "description": {
+                            "ru": "Терапевт, специалист общего профиля",
+                            "ro": "Medic generalist care lucrează cu adulți",
+                            "en":"Therapist, general specialist"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач терапевт ? Терапевт — это врач, к которому мы чаще всего обращаемся в течение жизни. Он лечит повседневные проблемы со здоровьем, зная нашу медицинскую и семейную историю.",
+                            "ro": "<h3><strong>Ce tratează medicul internist ?</strong></h3><p><br></p><p><span style=\"color: rgb(43, 43, 43);\">Medicul&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">internist</strong><span style=\"color: rgb(43, 43, 43);\">&nbsp;sau&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">terapeut&nbsp;</strong><span style=\"color: rgb(43, 43, 43);\">este medicul pe care îl consultăm cel mai des în timpul vieții noastre. El tratează problemele de sănătate de zi cu zi, cunoscând istoricul nostru medical și familial.&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">Medicul&nbsp;</span><strong style=\"color: rgb(43, 43, 43);\">internist</strong><span style=\"color: rgb(43, 43, 43);\">&nbsp;asigură urmărirea personalizată a pacienților săi prin prescrierea de tratamente adecvate. Le poate redirecționa către medici de specialitate atunci când simptomele pacientului nu mai sunt sub controlul său. Pacientul trebuie să treacă mai întâi prin medicul său curant înainte de a consulta un specialist (cu excepția ginecologului, oftalmologului, psihiatrului și stomatologului).</span></p><p><span style=\"color: rgb(43, 43, 43);\">&nbsp;</span></p><p><span style=\"color: rgb(43, 43, 43);\">Consultațiile medicului încep cu un interviu cu pacientul pentru a afla motivele vizitei acestuia (durere, disconfort, febră etc.). Apoi, medicul trece la examinarea medicală a pacientului prin inspecție generală, palpare sau auscultație, folosind instrumentele medicale . Această rutină medicală include măsurarea tensiunii arteriale cu ajutorul unui tensiometru, ascultarea inimii cu un stetoscop, palparea ganglionilor limfatici etc. De asemenea, poate privi starea faringelui și amigdalelor pacientului folosind o spatulă, precum și cavitatea urechilor sale. De asemenea, medicul curant este autorizat să recomande tratament medicamentos (tablete, injecții și perfuzii), inclusiv vaccinuri.</span></p>",
+                            "en":"What does a general practitioner treat? Therapist is the doctor to whom we most often turn during our lives. He treats everyday health problems knowing our medical and family history."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2021/12/17/doctor-stethoscope_2.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 786
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-20T06:30:00Z",
+            "experience": "<p>Medic internist maturi, categorie superioară de calificare, experiență profesională 23 ani.</p><p><br></p><ul><li>Consultul și tratamentul pacienților cu multiple comorbidități, abordare multidisciplinară:</li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hepatită cronică și ciroză hepatică</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Infecții respiratorii&nbsp;</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Gastrită, ulcer</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Hipertensiune și boli cardiace</span></li><li class=\"ql-indent-1\"><span style=\"background-color: rgb(255, 255, 255);\">Boli articulare</span></li><li>Consultul și tratamentul pacienților suspecți/confirmați pozitiv COVID-19, conduința pacienților cu consecințe ale infecției SARS-CoV-2</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1999,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 214414,
+                    "weekday": 5,
+                    "start": "2023-05-20T06:30:00Z",
+                    "end": "2023-05-20T07:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 786,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214415,
+                    "weekday": 5,
+                    "start": "2023-05-20T07:00:00Z",
+                    "end": "2023-05-20T07:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 786,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214416,
+                    "weekday": 5,
+                    "start": "2023-05-20T07:30:00Z",
+                    "end": "2023-05-20T08:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 786,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214417,
+                    "weekday": 5,
+                    "start": "2023-05-20T08:00:00Z",
+                    "end": "2023-05-20T08:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 786,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214418,
+                    "weekday": 5,
+                    "start": "2023-05-20T08:30:00Z",
+                    "end": "2023-05-20T09:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 786,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 822,
+            "first_name": {
+                "ru": "Надежда",
+                "en": "Nadejda"
+            },
+            "last_name": {
+                "ru": "Коробчеан",
+                "en": "Corobcean"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/17/dfgdfgdf-min.png",
+            "date_of_birth": "1976-12-26",
+            "user_categories": [
+                {
+                    "id": 1415,
+                    "category": {
+                        "id": 33,
+                        "title": {
+                            "ru": "Онколог",
+                            "ro": "Oncolog",
+                            "en": "Oncologist"
+                        },
+                        "description": {
+                            "ru": "Занимается диагностикой и лечением опухоли в организме человека",
+                            "ro": "Se ocupă cu diagnosticarea, tratamentul si prevenirea bolii canceroase umane",
+                            "en":"Engaged in the diagnosis and treatment of tumors in the human body"
+                        },
+                        "full_description": {
+                            "ru": "Онколог — это врач, который занимается онкологическими заболеваниями: хирургическим лечением, лучевой и медикаментозной терапией, химиотерапией, гормонотерапией, иммунотерапией и таргетной терапией. Он также занимается решением проблем, связанных с раком или побочными эффектами лечения: болью, усталостью, проблемами с питанием, пищеварением, дыханием.",
+                            "ro": "<p><strong style=\"background-color: white;\">Oncologul </strong><span style=\"background-color: white;\">este medicul care realizează managementul bolilor oncologice: tratamentul chirurgical, tratamentul cu radioterapie si tratament cu medicamente, folosind chimioterapie, hormonoterapie, imunoterapie și terapii țintite. De asemenea, se ocupă cu managementul problemelor legate de boala oncologica sau de efectele adverse ale tratamentelor: durerea, oboseală, probleme in nutriție, digestie, respirație. </span></p><p><br></p><h3><strong>Ce face și ce tratează un medic oncolog?</strong></h3><p>&nbsp;</p><p>Rolul <strong>medicului oncolog</strong> este de a identifica tipul tumorii,&nbsp;severitatea și gradul de răspândire a acesteia. Odată ce a fost pus diagnosticul de cancer, el propune o strategie terapeutică, discută cu specialiștii care implicate I tratamentul tumorilor (chirurgi, patologi, radiologi, radioterapeuți) din cadrul consiliilor multidisciplinare&nbsp;pentru a se asigura că toate opțiunile posibile sunt luate în considerare. Când se alege tratamentul medical, medicul oncolog: prescrie medicamente, care urmează a fi administrate sub formă de cicluri, verifică eficacitatea acestora prin investigații clinice și imagistice, urmărește posibilele efecte secundare ale acestora.</p><p>&nbsp;</p><p>Cele mai frecvente tipuri de cancer sunt:</p><ul><li> cancer de sân&nbsp;</li><li> cancer de colon și rect&nbsp;</li><li> cancer de plămâni&nbsp;</li><li> cancer de prostată&nbsp;</li><li> cancer de col uterin</li></ul><p><br></p><p>Deși cancerul poate afecta pe oricine, la orice vârstă, inclusiv în copilărie, există câțiva factori de risc recunoscuți pentru cancer:</p><ul><li>&nbsp;factori genetici, în special pentru cancerul de sân, ovar sau de colon;</li><li>&nbsp;consumul de tutun;</li><li>&nbsp;expunerea cronică la radiații sau la anumite substanțe (azbest, chimicale, pesticide);</li><li>&nbsp;anumite virusuri (cancer de col uterin, cancer de stomac, cancer de ficat).</li></ul>",
+                            "en":"An oncologist is a doctor who deals with oncological diseases: surgical treatment, radiation and drug therapy, chemotherapy, hormonal therapy, immunotherapy and targeted therapy. He also deals with problems related to cancer or side effects of treatment: pain, fatigue, problems with nutrition, digestion, breathing."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/17/vectorpaint_2_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 822
+                }
+            ],
+            "rating": 5,
+            "near_date": "2023-05-20T08:00:00Z",
+            "experience": "<p>Medic oncolog, doctor în științe medicale, conferențiar universitar, experiență profesională 18 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Diagnosticul complet al tumorilor maligne (aprecierea tipului histologic și stadiului clinic al bolii)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Selectarea algoritmului de tratament personalizat specific pentru fiecare pacient (planul de tratament personalizat)</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Determinarea indicațiilor pentru Tratament chirurgical, Terapia targhet (terapia țintită), Imunoterapie, Radioterapie</span></li><li><span style=\"background-color: rgb(255, 255, 255);\">Testarea moleculară a țesutului tumoral și alegerea tratamentului individual în funcție de profilul molecular-genetic</span></li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
+            "excperience_start_year": 2004,
+            "price": 400.0,
+            "country_code": {
+                "id": 8,
+                "country_name": {
+                    "ru": "Romania",
+                    "ro": "Romania"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/02/02/flag_romania-min.png",
+                "code": "+40",
+                "digit_count": 9
+            },
+            "slots": [
+                {
+                    "id": 214431,
+                    "weekday": 5,
+                    "start": "2023-05-20T08:00:00Z",
+                    "end": "2023-05-20T08:45:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 822,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214432,
+                    "weekday": 5,
+                    "start": "2023-05-20T08:45:00Z",
+                    "end": "2023-05-20T09:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 822,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214433,
+                    "weekday": 5,
+                    "start": "2023-05-20T09:30:00Z",
+                    "end": "2023-05-20T10:15:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 822,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214434,
+                    "weekday": 5,
+                    "start": "2023-05-20T10:15:00Z",
+                    "end": "2023-05-20T11:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 822,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214435,
+                    "weekday": 5,
+                    "start": "2023-05-20T11:00:00Z",
+                    "end": "2023-05-20T11:45:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 822,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 790,
+            "first_name": {
+                "ru": "Людмила",
+                "en": "Ludmila"
+            },
+            "last_name": {
+                "ru": "Сурател",
+                "en": "Suratel"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/ludmila_suratel_2-min.png",
+            "date_of_birth": "1963-01-07",
+            "user_categories": [
+                {
+                    "id": 1400,
+                    "category": {
+                        "id": 28,
+                        "title": {
+                            "ru": "Офтальмолог",
+                            "ro": "Oftalmolog",
+                            "en": "Ophthalmologist"
+                        },
+                        "description": {
+                            "ru": "Занимается диагностикой и лечением глазных болезней",
+                            "ro": "Se ocupă de diagnosticul și tratamentul bolilor de ochi",
+                            "en":"Engaged in the diagnosis and treatment of eye diseases"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач офтальмолог ? Офтальмолог – это врач, который занимается диагностикой и лечением заболеваний глаз. Он диагностирует дефекты зрения, назначает необходимые коррекции и может решить, нужна ли пациенту операция.",
+                            "ro": "<h3><strong>Ce tratează medicul oftalmolog ?</strong></h3><p><br></p><p><strong>Oftalmologul</strong> este un medic care se ocupă de diagnosticul și tratamentul bolilor de ochi. El diagnostichează defectele de vedere, prescrie corecțiile necesare și poate decide dacă pacientul trebuie sa fie operat.</p><p><br></p><p>Medicul<strong> oftalmolog</strong> tratează afecțiunile oculare și tulburările de vedere, anomaliile sistemului optic format din cornee, cristalin și retină: miopie, hipermetropie, astigmatism, tulburări de vedere binoculare, strabism, afecțiunile diabetice oculare, sindromul ochiului uscat, cataractă, glaucom, degenerescență maculară, uveite, dezlipire de retină. Toate aceste anomalii pot fi corectate prin ochelari corectori sau lentile de contact, prin ședințe de reabilitare și/sau prin intervenții chirurgicale efectuate chiar de medicul oftalmolog.&nbsp;</p><p>&nbsp;</p><h3><strong>Ce face medicul oftalmolog?</strong></h3><p><br></p><p>Orice examen oftalmologic include următoarele etape, efectuate cu diferite aparate: măsurarea acuității vizuale (fără corectare, apoi cu); măsurarea câmpului vizual; măsurarea tonusului ocular; examinarea fundului de ochi. Însă medicul oftalmolog poate efectua și examinări suplimentare: ecografie oculară, radiografie a orbitei, angiografie.</p><p><strong>Oftalmologul</strong> poate identifica&nbsp;patologii mai grave, legate de vârsta ca de exemplu : cataractă, degenerescență maculară, dezlipire de retină etc.</p><p>Odată pus diagnosticul, medicul oftalmolog decide care sunt pașii pe care trebuie sa îi urmeze pacientul pentru reabilitarea oculară necesară.</p><p><br></p><h3><strong style=\"color: rgb(33, 37, 41); background-color: transparent;\">Când să consultați un oftalmolog?</strong></h3><p><strong style=\"color: rgb(33, 37, 41); background-color: transparent;\">﻿</strong></p><p>În mod ideal, este mai bine să consultați regulat medicul oftalmolog și mai ales înainte de a observa o tulburare de vedere. De ce ? Pentru că înainte de a vă afecta vederea, multe boli oculare pot progresa „în tăcere”. Aceasta se referă mai ales în cazul pacienților care trec vârsta de 40 de ani. După această vârsta pot apărea probleme vizuale majore: glaucom, cataractă etc.</p><p><br></p><p>În afară de examinările regulate recomandate adulților, anumite semne ar trebui să vă încurajeze să consultați un <strong>oftalmolog</strong>:</p><ul><li>Modificări în perceperea culorilor</li><li>Sensibilitatea ochilor la lumina soarelui sau la lumină</li><li>Mâncărimi ale ochilor</li><li>Pete negre sau vedere încețoșată în centrul vederii</li><li>Modificări ale calității vederii: vedere încețoșată, halou luminos, vedere ondulată a liniilor.</li><li>Secreții,&nbsp;ochi lipiți</li><li>Dureri de cap frecvente după o zi de lucru pe ecran</li><li>Ochi lăcrimați, senzație de corp străin și ochi uscați.</li><li>Mâncărimi, pleoape umflate.</li></ul><p><br></p><p>De asemenea, acordați atenție&nbsp;simptomelor care constituie urgențe oftalmologice :</p><ul><li>&nbsp;&nbsp;&nbsp;Pierderea bruscă a vederii la un ochi sau altul</li><li>&nbsp;&nbsp;&nbsp;Vedere brusc ondulată, distorsionată sau dublă</li><li>&nbsp;&nbsp;&nbsp;Durere oculară violentă și bruscă, cu sau fără ochi roșii</li><li>&nbsp;&nbsp;&nbsp;Amputarea, chiar parțială, a câmpului vizual</li><li>&nbsp;&nbsp;Percepția blițurilor strălucitoare sau a muștelor zburătoare în fața ochilor.</li></ul><p><br></p><p>Aceste semne necesită o consultare urgentă cu un<strong> oftalmolog</strong> . Dacă nimeni nu vă poate consulta, trebuie să vă adresați la serviciile de urgență.</p><p><br></p><p>De reținut că anumite boli sunt recunoscute ca fiind capabile să influențeze integritatea și funcționarea normală a ochilor. De exemplu:</p><ul><li>diabetul;</li><li>tensiunea arterială crescută;</li><li>anumite reumatisme;</li><li>anumite boli infecțioase;</li><li>sau boli neurologice.</li></ul><p><br></p><p>În cazul prezenței uneia dintre bolile de mai sus, se recomandă adresarea la medicul oftalmolog în mod regulat.</p>",
+                            "en":"What does an ophthalmologist treat? An ophthalmologist is a doctor who diagnoses and treats eye diseases. He diagnoses visual defects, prescribes the necessary corrections and can decide whether the patient needs surgery."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/view_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 790
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-20T12:00:00Z",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Medic oftalmolog maturi , categorie superioară de calificare, experiență profesională 33 ani.</span></p><p><br></p><ul><li><strong><em>﻿</em></strong>Investigaţia și tratarea afecţiunilor diabetice oculare </li><li>Tratarea sindromului de ochi uscat, terapia afecţiunilor oculare</li><li>Chirurgia cataractei și a glaucomului </li><li>Chirurgia pleoapei și a căilor lacrimale </li><li>Degenerescență maculară</li><li>Diagnosticul și tratamentul uveitelor</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1989,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": [
+                {
+                    "id": 214419,
+                    "weekday": 5,
+                    "start": "2023-05-20T12:00:00Z",
+                    "end": "2023-05-20T12:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214420,
+                    "weekday": 5,
+                    "start": "2023-05-20T12:30:00Z",
+                    "end": "2023-05-20T13:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214421,
+                    "weekday": 5,
+                    "start": "2023-05-20T13:00:00Z",
+                    "end": "2023-05-20T13:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214422,
+                    "weekday": 5,
+                    "start": "2023-05-20T13:30:00Z",
+                    "end": "2023-05-20T14:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214423,
+                    "weekday": 5,
+                    "start": "2023-05-20T14:00:00Z",
+                    "end": "2023-05-20T14:30:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                },
+                {
+                    "id": 214424,
+                    "weekday": 5,
+                    "start": "2023-05-20T14:30:00Z",
+                    "end": "2023-05-20T15:00:00Z",
+                    "is_free": true,
+                    "added_by_doctor": false,
+                    "closed_by_doctor": false,
+                    "has_order": false,
+                    "doctor": 790,
+                    "interval": null,
+                    "order": null
+                }
+            ]
+        },
+        {
+            "id": 789,
+            "first_name": {
+                "ru": "Лилия",
+                "en": "Lilia"
+            },
+            "last_name": {
+                "ru": "Сарагов",
+                "en": "Saragov"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/19/lilia-min.png",
+            "date_of_birth": "1968-03-30",
+            "user_categories": [
+                {
+                    "id": 1396,
+                    "category": {
+                        "id": 9,
+                        "title": {
+                            "ru": "Кардиолог",
+                            "ro": "Cardiolog",
+                            "en": "Cardiologist"
+                        },
+                        "description": {
+                            "ru": "Занимается болезнями сердечно-сосудистой системы",
+                            "ro": "Se ocupă de bolile inimii și ale vaselor de sânge",
+                            "en":"Deals with diseases of the cardiovascular system"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач кардиолог ? Кардиология — это медицинская специальность, которая занимается диагностикой и лечением заболеваний сердца и сосудов. Полезно знать, что сердце представляет собой полую мышцу размером с кулак, называемую миокардом. Сердце перекачивает кровь за счет ритмичных сокращений к кровеносным сосудам, которые затем распределяют ее по органам и тканям тела.",
+                            "ro": "<h3><strong>Ce tratează medicul cardiolog ?</strong></h3><p><br></p><p><strong>Cardiologia</strong> este specialitatea medicală care se ocupă de diagnosticarea și tratamentul afecțiunilor inimii și a vaselor de sânge.</p><p><br></p><p>E bine de știut că inima este un mușchi gol de mărimea unui pumn, numit miocard. Inima pompează sângele prin contracții ritmice către vasele de sânge, care îl distribuie ulterior către organele și țesuturile corpului.</p><h3><br></h3><h3><strong>Ce face medicul cardiolog?</strong></h3><p><br></p><p>Pentru a avea grijă de pacienții săi, cardiologul efectuează multe proceduri medicale:</p><ul><li>poate efectua examene, cum ar fi ecocardiografia, explorarea ritmică, măsurarea ambulatorie a tensiunii arteriale, scintigrafia miocardică, angioplastia sau chiar angiografia coronariană;</li><li>el poate recurge la tehnici intervenționale, precum dilatarea arterelor coronare, dilatarea valvelor cardiace, închiderea comunicării anormale între camerele cardiace sau chiar ablația circuitelor electrice anormale;</li><li>poate prescrie medicamente, atunci când patologia nu este într-un stadiu prea avansat;</li><li>poate oferi&nbsp;reabilitare cardiovasculară.</li></ul><p><br></p><h3><strong>Când să consultați un cardiolog?</strong></h3><p><br></p><p>Boală cardiacă este a două cauză de deces în rândul bărbaților și prima în rândul femeilor.</p><p>Multe dintre ele necesită intervenția unui <strong>cardiolog</strong>. Să menționăm în special :</p><ul><li>accident vascular cerebral ;&nbsp;</li><li>angină pectorală ;</li><li>embolie pulmonară ;</li><li>hipertensiune arterială ;</li><li>infarct miocardic ;</li><li>insuficiență cardiacă;</li><li>defecte cardiace;</li><li>ateroscleroza.</li></ul><p><br></p><p>Unii pacienți sunt mai tare expuși riscului de a avea boli de inimă. Iată câțiva factori care contribuie la creșterea riscului:</p><ul><li>obezitatea ;</li><li>lipsa de activitate fizică ;</li><li>stresul ;</li><li>fumatul ;</li><li>hipertensiune ;</li><li>excesul de colesterol ;</li><li>diabet.</li></ul>",
+                            "en":"What does a cardiologist treat? Cardiology is a medical specialty that deals with the diagnosis and treatment of diseases of the heart and blood vessels. It is useful to know that the heart is a fist-sized hollow muscle called the myocardium. The heart pumps blood by rhythmic contractions to the blood vessels, which then distribute it to the organs and tissues of the body."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/heart_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 789
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-22T14:00:00Z",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255);\">Medic cardiolog maturi, categorie superioară de calificare, experiență profesională 30 ani.</span></p><p><br></p><ul><li>Insuficientă cardiacă</li><li>Cardiopatie ischemică</li><li>Dereglări de ritm și conductibilitate</li><li>Patologia cardiacă și&nbsp;sarcină</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1992,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": []
+        },
+        {
+            "id": 788,
+            "first_name": {
+                "ru": "Елена",
+                "en": "Elena"
+            },
+            "last_name": {
+                "ru": "Васильева",
+                "en": "Vasilieva"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/03/07/vasilieva-min_1.png",
+            "date_of_birth": "1962-02-15",
+            "user_categories": [
+                {
+                    "id": 1395,
+                    "category": {
+                        "id": 4,
+                        "title": {
+                            "ru": "Акушер-гинеколог",
+                            "ro": "Obstetrician-Ginecolog",
+                            "en": "Obstetrician-gynecologist"
+                        },
+                        "description": {
+                            "ru": "Женская консультация",
+                            "ro": "Sănătatea reproductivă a femeii",
+                            "en":"Women's consultation"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит врач акушер-гинеколог ? Гинекология – раздел медицины, изучающий физиологию и лечение заболеваний женской репродуктивной системы. Таким образом, гинеколог является привилегированным собеседником женщин на ключевых этапах их сексуальной жизни, от полового созревания до менопаузы." ,
+                            "ro": "<h3><strong>Ce tratează medicul obstetrician-ginecolog ?</strong></h3><p><br></p><p><strong>Ginecologia</strong> <span style=\"background-color: rgb(255, 255, 255);\">este ramura medicinei care se ocupă cu fiziologia și tratarea afecțiunilor aparatului genital feminin.</span> Medicul <strong>ginecolog </strong>este deci interlocutorul privilegiat al femeilor în fazele cheie ale vieții lor sexuale, de la pubertate până la menopauză. El se ocupă de probleme legate de menstruație sau menopauză, contracepție, boli ale sânului, uterului, ovarelor, trompelor uterine și organelor genitale externe, precum și de cancerele feminine.</p><p><br></p><p>Ginecologia <strong>obstetrică </strong>se referă la monitorizarea sarcinii și a nașterii. Un medic <strong>obstetrician</strong> are grijă de femeie dar și de copilul pe care îl poartă, asistat de o moașă și/sau de o asistentă. El efectuează examinările și stabilește diagnosticul prenatal.</p><h3><br></h3><p>Medicul <strong>obstetrician-ginecolog</strong> beneficiază de asemenea de o pregătire extinsă în chirurgie permițându-i să efectueze intervenții în timpul nașterii dar și în contextul altor afecțiuni, fie că este vorba despre o tumoare benignă (chist mamar, endometrioză, etc.) sau canceroasă (sân, uter, ovare), în chirurgia funcțională uro-ginecologică sau pelviană.</p><h3><br></h3><h3><strong>Ce&nbsp;face medicul obstetrician-ginecolog?</strong></h3><p><br></p><p>În colaborare cu echipa sa și în special cu moașele, monitorizează sarcina și dezvoltarea armonioasă a fătului. El supraveghează și intervine, dacă este necesar, în timpul nașterii. În caz de subfertilitate sau infertilitate, cuplurile care intenționează să aibă un copil pot găsi o soluție cu el prin medicină reproductivă : stimularea ovulației, inseminarea intrauterină, fertilizare în vitro etc. În timpul sarcinii se ocupă de diagnosticul prenatal, care constă în depistarea înainte de naștere a unei posibile patologii care afectează copilul nenăscut : malformație sau boală genetică. Pentru a stabili dacă fătul este purtător de o patologie, se pot face diferite tipuri de examinări : ecografie fetală și ecocardiografie, amniocenteză etc. Dincolo de urmărirea sarcinii și a actelor chirurgicale ale acesteia, medicul ginecolog-obstetrician poate efectua și alte intervenții medicale (monitorizarea colului uterin, plasarea implanturilor contraceptive, avort).</p>",
+                            "en":"What does an obstetrician-gynecologist treat? Gynecology is a branch of medicine that studies the physiology and treatment of diseases of the female reproductive system. Thus, the gynecologist is the privileged interlocutor of women at key stages of their sexual life, from puberty to menopause."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/04/femenine_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 788
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-06-22T18:00:00Z",
+            "experience": "<p>Medic obstetrician-ginecolog maturi , categorie superioară de calificare, experiență profesională 32 ani.</p><p><br></p><ul><li><span style=\"background-color: rgb(255, 255, 255);\">Consultația </span>sarcinii la orice termen</li><li>Infecțiile sexual transmisibile</li><li>Vulvovaginita specifică și nespecifică</li><li>Disminoree</li><li>Sîngerări</li><li>Chisturi</li><li>Infertilitate</li><li>Estetică Intimă - injectabilă și chirurgicală</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
+            "excperience_start_year": 1990,
+            "price": 400.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": []
+        },
+        {
+            "id": 826,
+            "first_name": {
+                "ru": "Наталья",
+                "en": "Natalia"
+            },
+            "last_name": {
+                "ru": "Кодряну",
+                "en": "Codreanu"
+            },
+            "profile_image": "https://api.allodoc.md/media/static/images/2022/02/24/poza_mea_jQHZDNe.jpg",
+            "date_of_birth": "1976-10-04",
+            "user_categories": [
+                {
+                    "id": 1326,
+                    "category": {
+                        "id": 31,
+                        "title": {
+                            "ru": "Психолог и Психотерапевт",
+                            "ro": "Psiholog și Psihoterapeut",
+                            "en": "Psychologist and Psychotherapist"
+                        },
+                        "description": {
+                            "ru": "Занимается психическими расстройствами",
+                            "ro": "Se ocupă de tulburări de sănătate mintală",
+                            "en":"Deals with mental disorders"
+                        },
+                        "full_description": {
+                            "ru": "Что лечит психолог ? Психолог является экспертом в области поведения, эмоций и психического здоровья. Он взаимодействует с людьми, которые испытывают психологические трудности.",
+                            "ro": "<h3><strong>Ce tratează psihologul ?</strong></h3><p><br></p><p><strong>Psihologul</strong> este un expert în comportament, emoții și sănătate mintală. El interactioneaza cu persoanele care se confruntă cu dificultăți psihologice.</p><p><br></p><h3><strong>Ce face psihologul?</strong></h3><p><br></p><p>Rolul său este să sprijine și să îndrume pacientul pe calea cea dreapta. Pentru aceasta , psihologul :</p><ul><li>solicită o descriere a istoriei sale personale, când a apărut problema, factorii care o agravează sau o diminuează, cum afectează această problemă viața socială, familială și profesională</li><li>poate trece la teste psihologice, pentru a înțelege mai bine comportamentul pacientului său. Testele pot fi folosite pentru a evalua starea de spirit, pentru a evalua problemele de memorie, de concentrare sau pentru a înțelege mai bine personalitatea pacientului.</li><li>odată cu colectarea informațiilor (prin interogatoriu și/sau faza de testare), psihologul plănuiește numărul de ședințe pe care le consideră necesare pentru ca individul, familia sau cuplul care a venit să-l consulte să se simtă mai bine;</li></ul><p><br></p><p><strong>Rețineți </strong>că psihologul nu este medic și nu poate prescrie medicamente. Dacă simte că pacientul pe care îl examinează are nevoie de ele, îi recomandă un medic specialist.</p><p><br></p><h3><strong>Când să consulți un psiholog ?</strong></h3><p><br></p><p>Multe subiecte intră în domeniul psihologiei. În special, menționăm următoarele:</p><ul><li>probleme de sănătate mintală, cum ar fi depresia, anxietatea, fobiile;</li><li>gestionarea suferinței, stresului, furiei<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>probleme de dezvoltare și comportament<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>probleme psihologice asociate cu consecințele unor boli, cum ar fi diabetul, accidentul vascular cerebral sau bolile de inimă<span style=\"background-color: rgb(255, 255, 255);\">;</span></li><li>fumatul, alcoolismul sau consumul de droguri;</li><li>relații de cuplu, probleme familiale;</li><li>traume psihologice.</li></ul><p><br></p>",
+                            "en":"What does a psychologist treat? A psychologist is an expert in behavior, emotions, and mental health. He interacts with people who are experiencing psychological difficulties."
+                        },
+                        "image": "https://api.allodoc.md/media/static/images/2022/02/03/thinking_1.svg",
+                        "is_active": true,
+                        "order": 0
+                    },
+                    "user": 826
+                }
+            ],
+            "rating": 0,
+            "near_date": "2023-05-27T11:20:00Z",
+            "experience": "<p><span style=\"background-color: rgb(255, 255, 255); color: rgb(43, 43, 43);\">Psiholog pentru adulți și copii, experiență profesională 16 ani</span></p><p><br></p><ul><li>Depresia</li><li>Tulburarea de stres posttraumatic (trauma)</li><li>Anxietatea generalizată</li><li>Tulburarea de panică (atacuri de panică) și agorafobia Anxietatea socială</li><li>Fobia specifică</li><li>Tulburarea obsesiv-compulsivă</li><li>Tulburările de conduită alimentară (bulimia, anorexia)</li><li>Tulburările de personalitate</li><li>Crize psihologice <span style=\"background-color: rgb(255, 255, 255);\">și</span> consiliere psihologică&nbsp;</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Psihologul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul psihologic.</span></p>",
+            "excperience_start_year": 2006,
+            "price": 500.0,
+            "country_code": {
+                "id": 7,
+                "country_name": {
+                    "ru": "Moldova",
+                    "ro": "Moldova"
+                },
+                "icon": "https://api.allodoc.md/media/static/images/2022/01/14/moldavia-moldova-flag-flag-of-.jpg",
+                "code": "+373",
+                "digit_count": 8
+            },
+            "slots": []
+        }
+    ]
+}

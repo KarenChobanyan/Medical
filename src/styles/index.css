@@ -1,0 +1,332 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E5E5E5;
+  ;
+}
+
+.bodyDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  background-color: #FFFFFF;
+}
+
+.bodyMain {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+  height: 420px;
+}
+
+.bodyMainFirstBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 495px;
+}
+
+.bodyMainBoldText {
+  height: 88px;
+  width: 495px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 44px;
+  letter-spacing: -0.3px;
+  color: #4F4F4F;
+}
+
+.mainBoldUnderline {
+  text-decoration: underline #FF9F28 5px;
+  text-decoration-thickness: 15px;
+  text-underline-position: initial;
+  text-decoration-skip-ink: none;
+
+}
+
+.bodyMainThinText {
+  height: 88px;
+  width: 495px;
+  margin-top: 25px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16.2px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #A0A0A0;
+}
+
+.mainThinTextUnderline {
+  text-decoration: underline #FF9F28 5px;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+  color: #4F4F4F;
+}
+
+.mainThinTextLink {
+  color: #56CCF2;
+  font-weight: 700;
+  cursor: default;
+  transition: 0.1s;
+}
+
+.mainThinTextLink:hover {
+  text-decoration: underline;
+}
+
+.bodyMainButtonBox {
+  width: 495px;
+  height: 60px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.whiteButton {
+  height: 35px;
+  width: 210px;
+  border: 2px solid #56CCF2;
+  border-radius: 5px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  color: #56CCF2;
+  transition: 0.1s;
+  cursor: default;
+}
+
+.whiteButton:hover {
+  text-decoration: underline;
+  border: 4px solid #56CCF2;
+}
+
+.blueButton {
+  height: 35px;
+  width: 210px;
+  border: 2px solid #56CCF2;
+  border-radius: 5px;
+  background: #56CCF2;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.3px;
+  color: #ffffff;
+  transition: 0.1s;
+  cursor: default;
+}
+
+.blueButton:hover {
+  text-decoration: underline;
+  background-color: #3ca3c5;
+  border: 4px solid #3ca3c5;
+}
+
+.bodyMainSecondBox {
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+  height: 100%;
+  width: 495px;
+
+}
+
+.BlueDecoreFirst {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  top: 160px;
+  right: 5px;
+  background: linear-gradient(104.74deg, #56CCF2 19.59%, #3BAACD 83.11%);
+  opacity: 0.15;
+  border-radius: 30px;
+  transform: rotate(-5.71deg);
+}
+
+.BlueDecoreSecond {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  top: 160px;
+  right: 5px;
+  background: linear-gradient(104.74deg, #56CCF2 19.59%, #3BAACD 83.11%);
+  opacity: 0.46;
+  border-radius: 30px;
+  transform: rotate(-15.81deg);
+}
+
+.BlueDecoreThird {
+  position: absolute;
+  width: 450px;
+  height: 200px;
+  top: 160px;
+  right: 5px;
+  background: linear-gradient(104.74deg, #56CCF2 19.59%, #3BAACD 83.11%);
+  border-radius: 30px;
+  transform: rotate(-24.92deg);
+}
+
+.mainDoctorImage {
+  position: absolute;
+  width: 420px;
+  height: 480px;
+  right: -25px;
+  top: -50px;
+  background: url(../Img/DoctorsImage.png);
+  background-size: center;
+  z-index: 0;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  z-index: 0;
+}
+
+.appointmentDiv {
+  width: 1000px;
+  height: 280px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 25px;
+  background: #FFFFFF;
+  border: 0.5px solid #D1D1D1;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+}
+
+.appImage {
+  width: 180px;
+  height: 250px;
+  margin-left: 50px;
+  background: url(../Img/OBJECTS.png);
+}
+
+.appTextDiv {
+  height: 250px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.appBoldText {
+  height: 30px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.3px;
+  color: #4F4F4F;
+  text-decoration: underline;
+  text-decoration-color: #FF9F28;
+  text-decoration-thickness: 5px;
+  text-decoration-skip-ink: none;
+}
+
+.appThinText {
+  height: 17px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #4F4F4F;
+}
+
+.appListTextBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+.appListLine {
+  width: 500px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.appListStyle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #FF9F28;
+}
+
+.appListText {
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.3px;
+  color: #4F4F4F;
+}
+
+.aptButton {
+  width: 122px;
+  height: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  letter-spacing: -0.3px;
+  color: #56CCF2;
+  cursor: default;
+  transition: 0.1s;
+}
+
+.aptButton:hover {
+  text-decoration: underline;
+  text-decoration-color: #229bc4;
+  text-decoration-thickness: 2px;
+  text-decoration-skip-ink: none;
+}
+
+.myNoteDiv {
+  width: 1000px;
+  height: 50px;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.myNotesButton {
+  width: 108px;
+  height: 22px;
+  background-color: #56CCF2;
+  border-radius: 5px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 20px;
+  letter-spacing: -0.1px;
+  color: #4F4F4F;
+  text-align: center;
+  cursor: default;
+  transition: 0.1s;
+}
+
+.myNotesButton:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,236 @@
+.exactNoteBody {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1000px;
+    background-color: #ffffff;
+}
+
+.exactDocorMainDiV {
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #56CCF2;
+}
+
+.exactDoctorMainDivNav {
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: -20px;
+}
+
+.doctorPageNav {
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+
+}
+
+.doctorPageNavArrow {
+    height: 15px;
+    width: 15px;
+    margin: 0px 10px;
+    background-image: url(../Img/Exact-Doctor-Page/arrow_right.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.exactDoctorMainDivProfile {
+    width: 70%;
+    height: 220px;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exactDoctorprofile {
+    width: 470px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.exactDoctorProfileImage {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.exactDoctorInfoSheet {
+    width: 220px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.exactDocotorName {
+    font-size: 25px;
+    font-weight: 700;
+    font-family: cursive;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+}
+
+.exactDoctorTitle {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    font-family: sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.exactDoctorExperience {
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    margin-top: 20px;
+    color: #FFFFFF;
+}
+
+.exactDoctorServicePriceSheet {
+    width: 180px;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 10px 10px;
+}
+
+.exactDoctorServicePrice {
+    height: 25px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.consultationDuration {
+    height: 25px;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.exactDoctorPageBody {
+    height: 600px;
+    width: 70%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.exactDoctorInformationBox {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exactDoctorBodyInfoSheet {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.exactDoctorBodyInfoTitle {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.exactDoctorBodyInfoTitleIkon {
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.exactDoctorBodyInfoTitleText {
+    height: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 10px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: #56CCF2;
+}
+
+.exactDoctorBodyInfoText {
+    margin-top: 15px;
+    font-style: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+    color: #635f5f;
+}
+
+.doctorPageCalendar {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    transform: translateY(-60px);
+    border-radius: 25px;
+}
+
+.doctorPageCalendarHeader {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #FF9F28;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.doctorPageCalendarHeaderBoldText {
+    text-align: center;
+    width: 250px;
+    height: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+
+}
+
+.doctorPageCalendarHeaderThinText {
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+}

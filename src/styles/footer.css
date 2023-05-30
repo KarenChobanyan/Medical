@@ -1,0 +1,113 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    background: #4F4F4F;
+}
+
+.footerFirstCol {
+    width: 260px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 180px;
+}
+
+.footerMainLogo {
+    width: 200px;
+    height: 60px;
+    background-image: url(../Img/Footer/mainLogo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerFirstColThinText {
+    width: 260px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: -0.3px;
+    color: #AFAFAF;
+}
+
+.footerFirstColSocialIkonDiv {
+    width: 150px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footerfirstColSocialIkon {
+    width: 35px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerSecondCol {
+    width: 240px;
+    height: 260px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footerseconColText {
+    width: 240px;
+    height: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    cursor: default;
+    transition: 0.1s;
+}
+
+.footerseconColText:hover {
+    text-decoration: underline;
+}
+
+.footerThirdCol {
+    width: 260px;
+    height: 260px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.forFooterThirdElements {
+    width: 260px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerThirdColIkon {
+    width: 25px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.footerThirdColText {
+    width: 200px;
+    height: 25px;
+    margin-left: 15px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+}
