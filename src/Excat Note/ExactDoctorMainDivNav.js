@@ -7,7 +7,6 @@ import { useParams } from "react-router-dom";
 
 export default function ExactDoctorMainDivNav({ text }) {
     const [doctor] = useContext(Doctor)
-    //console.log(doctor);
     const doctorTitle = doctor.user_categories[0].category.title
     const translation = useContext(NoteLanguage)
     return (

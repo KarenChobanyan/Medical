@@ -1,5 +1,6 @@
-export default function ListNav({ text }) {
+export default function ListNav({ text,dispatchFn,style }) {
+    
     return (
-        <div className="noteNav">{text}</div>
+        <div onClick={dispatchFn}  className={style} key={Math.random()}>{text}</div>
     )
 }

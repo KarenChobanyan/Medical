@@ -20,6 +20,7 @@ import { Doctor } from './contexts/ExactDoctor';
 import * as Data from '../src/data.json'
 import { CountDoctorExperience } from './contexts/DoctorExperience';
 import UserBalancePage from './Header/User/User Balance/UserBalancePage';
+import MyNote from './MyNotesList/MyNote';
 
 
 function App() {
@@ -78,9 +79,10 @@ function App() {
                 <div className="App">
                   <Header setVisibilityFunction={handlerUsersMenuVisibility} state={usersMenuVisibility} />
                   <Routes>
-                    <Route path='/' element={<BodyDiv userMenuState={usersMenuVisibility} />} />
-                    <Route path='/note/:id' element={<ExactNoteBody state={usersMenuVisibility} />} />
-                    <Route path='/userBalance' element={<UserBalancePage state={usersMenuVisibility} />} />
+                    <Route path={'/'} element={<BodyDiv userMenuState={usersMenuVisibility} />} />
+                    <Route path={'/note/:id'} element={<ExactNoteBody state={usersMenuVisibility} />} />
+                    <Route path={'/userBalance'} element={<UserBalancePage state={usersMenuVisibility} />} />
+                    <Route path = {"/myNotes"}   element={<MyNote state={usersMenuVisibility}/>}/>
                   </Routes>
 
                   <Footer />

@@ -1,44 +1,57 @@
-import Note from "./Note";
-import NoteListNavDiv from "./NoteListNavDiv";
-import * as NoteList from "../data.json"
-import { useContext } from "react";
-import { NoteLanguage } from "../contexts/NoteLanguage";
+import { useContext, useReducer } from "react";
 import { DoctorList } from "../contexts/doctorList";
-import { CountDoctorExperience } from "../contexts/DoctorExperience";
+import { Language } from "../contexts/langContext";
+import * as NoteList from "../data.json";
+import NoResult from "./NoResults";
+import Note from "./Note";
+import ListNav from "./NoteListNav";
+import NoteListNavDiv from "./NoteListNavDiv";
+const data = { ...NoteList };
+const doctors = data.results;
+let upcomingNotes = null;
+let pastNotes = null;
+let cenceledNotes = null;
+
+
+function reducer(state, action) {
+    const currentDate = new Date().toJSON()
+    switch (action.type) {
+        case "allNotes":
+            return doctors;
+        case "upcoming":
+            upcomingNotes = doctors.filter((el) => el.near_date > currentDate);
+            return upcomingNotes
+        case "past":
+            pastNotes = doctors.filter((el) => el.near_date < currentDate);
+            return pastNotes
+        case "cenceled":
+            cenceledNotes = doctors.filter((el) => el.cenceled == true)
+            return cenceledNotes
+
+    }
+};
+
 
 export default function MyNotesList() {
-    const language = useContext(NoteLanguage)
-    const list = { ...NoteList }
-    const doctors = list.results
-    const countExperience = useContext(CountDoctorExperience)
+    const translate = useContext(Language)
+    const currentText = translate.Notes.noteNavs
 
-    function getDate(fullDate) {
-        const date = fullDate.slice(0, 10)
-        return date
-    };
-    function getTime(fulltime) {
-        const time = fulltime.slice(11, 16)
-        return time
-    };
+    const [filteredDoctors, dispatch] = useReducer(reducer, doctors)
 
-    
     return (
         <>
-            <DoctorList.Provider value={doctors}>
-                <div className="myNoteListMainDiv">
-                    <NoteListNavDiv />
-                    {doctors.map((el) => <Note
-                        id={el.id}
-                        aptDate={getDate(`${el.near_date}`)}
-                        aptTime={getTime(`${el.near_date}`)}
-                        image={el.profile_image}
-                        name={language == "ru" ? el.first_name.ru : el.first_name.en}
-                        surName={language == "ru" ? el.last_name.ru : el.last_name.en}
-                        title={language == "ru" ? el.user_categories[0].category.title.ru : el.user_categories[0].category.title.en}
-                        experience={countExperience(el.excperience_start_year)}
-                    />)}
-                </div>
-            </DoctorList.Provider>
+            <div className="myNoteListMainDiv">
+                <NoteListNavDiv >
+                    <ListNav dispatchFn={() => dispatch({ type: "allNotes" })} text={currentText.allNotes} style={filteredDoctors == doctors ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "upcoming" })} text={currentText.upcoming} style={filteredDoctors == upcomingNotes ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "past" })} text={currentText.past} style={filteredDoctors == pastNotes ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "cenceled" })} text={currentText.canceled} style={filteredDoctors == cenceledNotes ? "choosenNav" : "noteNav"} />
+                </NoteListNavDiv>
+
+                {filteredDoctors.length > 0 ? filteredDoctors.map((el) => <Note
+                    doctor={el}
+                />) : <NoResult text={currentText.noResult} key={Math.random()} />}
+            </div>
         </>
     )
 }

@@ -42,9 +42,11 @@ const TranslatedText = {
         Notes: {
             buttonShowNotes: "мои записи",
             noteNavs: {
+                allNotes:"Все записи",
                 upcoming: "Предстоящие",
                 past: "Прошедшие",
-                canceled: "Отмененные"
+                canceled: "Отмененные",
+                noResult:"Hет результата для показа"
             },
             noteBox: {
                 textIkonVideocall: "Видео связь",
@@ -67,7 +69,7 @@ const TranslatedText = {
             },
             secondBox:{
                 firstLine:"Как пользоваться",
-                secondLine:"FAQ (ответы на вопросы",
+                secondLine:"FAQ (ответы на вопросы)",
                 thirdLine:"Для врачей",
                 forthLine:"О сервисе",
                 fifthLine:"Контакты",
@@ -156,9 +158,11 @@ const TranslatedText = {
         Notes: {
             buttonShowNotes: "my notes",
             noteNavs: {
+                allNotes:"All notes",
                 upcoming: "Upcoming",
                 past: "Past",
-                canceled: "Canceled"
+                canceled: "Canceled",
+                noResult:"No result to show"
             },
             noteBox: {
                 textIkonVideocall: "Video call",
@@ -181,7 +185,7 @@ const TranslatedText = {
             },
             secondBox:{
                 firstLine:"How to use",
-                secondLine:"FAQ (answers to questions",
+                secondLine:"FAQ (answers to questions)",
                 thirdLine:"For doctors",
                 forthLine:"About the service",
                 fifthLine:"Contacts",

@@ -1,21 +1,50 @@
-import { Link, useParams, useSearchParams } from "react-router-dom";
 import NoteFirstLine from "./NoteFirstLine";
 import NoteSecondLine from "./NoteSecondLine";
-import { useContext } from "react";
-import { DoctorList } from "../contexts/doctorList";
-import { Doctor } from "../contexts/ExactDoctor";
+import { useContext, useMemo } from "react";
+import { CountDoctorExperience } from "../contexts/DoctorExperience";
+import { NoteLanguage } from "../contexts/NoteLanguage";
 
-export default function Note(props){
-    const {id,aptDate,aptTime,image,name,surName,title,experience}=props
-    const doctorList = useContext(Doctor)
-    const checkedDoctor= doctorList[1]
-  
-    return(
-        <Link to={`/note/${id}`} style={{textDecoration:"none"}}>
-        <div className="note" key={id+31}  >
-            <NoteFirstLine fulldate={aptDate} time={aptTime}/>
-            <NoteSecondLine image={image} name={name} surName={surName} title={title} experince={experience}/>
+export default function Note({ doctor }) {
+    const countExperience = useContext(CountDoctorExperience)
+    const language = useContext(NoteLanguage)
+
+    const exactDoctor = useMemo(() => {
+
+        function getDate(fullDate) {
+            const date = fullDate.slice(0, 10)
+            return date
+        };
+
+        function getTime(fulltime) {
+            const time = fulltime.slice(11, 16)
+            return time
+        };
+
+        return {
+            key: doctor.id + Math.random(),
+            fulldate: getDate(doctor.near_date),
+            time: getTime(doctor.near_date),
+            image: doctor.profile_image,
+            name: doctor.first_name,
+            surName: doctor.last_name,
+            experience: countExperience(doctor.excperience_start_year),
+            title: doctor.user_categories[0].category.title
+        }
+    }, [doctor])
+
+
+    return (
+
+        <div className="note" key={exactDoctor.key} >
+            <NoteFirstLine fulldate={exactDoctor.fulldate} time={exactDoctor.time} />
+            <NoteSecondLine
+                image={exactDoctor.image}
+                name={exactDoctor.name.en}
+                surName={exactDoctor.surName.en}
+                title={language == "ru" ? exactDoctor.title.ru : exactDoctor.title.en}
+                experince={exactDoctor.experience}
+                id={doctor.id}
+            />
         </div>
-        </Link>
     )
 }

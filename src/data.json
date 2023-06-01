@@ -43,7 +43,7 @@
                 }
             ],
             "rating": 5,
-            "near_date": "2023-05-16T14:00:00Z",
+            "near_date": "2023-06-16T14:00:00Z",
             "experience": "<p>Medic endocrinolog maturi și copii, categorie superioară de calificare, experiență profesională 17 ani.</p><p><br></p><ul><li>Diagnosticul și tratamentul diabetului zaharat la maturi și copii, inclusiv program de educație în diabet și utilizarea noilor tehnologii: senzori de glicemie și pompe de insulină;</li><li>Tratamentul obezității cu complicațiile ei și consiliere nutrițională;</li><li>Diagnosticul și tratamentul patologiilor glandei tiroide;</li><li>Evaluarea și tratamentul copiilor cu probleme de creștere și pubertate;</li><li>Diagnosticul, tratamentul și supravegherea pacienților cu maladii endocrine rare, inclusiv în bolile genetice: patologiile hipotalamo-hipofizare,&nbsp;a glandelor suprarenale, paratiroide, dereglările metabolismului de calciu și fosfor.</li></ul><p><br></p><p>În timul consultației trebuie să fiți gata de a comunica datele dvs. despre simptomele prezentate, istoricul bolii, tratamentul administrat și rezultatele investigațiilor efectuate. În rezultatul consultației veți putea beneficia de asistență calificată pentru clarificarea diagnosticului, discuția planului de examinare, interpretarea rezultatelor investigațiilor, evaluarea schemelor de tratament, educație terapeutică și consiliere nutrițională, urmărire în dinamică.</p><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! </span>Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</p>",
             "excperience_start_year": 2005,
             "price": 400.0,
@@ -404,7 +404,7 @@
                 }
             ],
             "rating": 0,
-            "near_date": "2023-05-17T07:00:00Z",
+            "near_date": "2023-06-17T07:00:00Z",
             "experience": "<p>Medic pediatru copii, experiență profesională 10 ani. </p><p><br></p><p>Semnele generale de pericol la copil care sînt considerate urgențe și care nu pot fi consultate la distanță:</p><ol><li>Copilul nu poate bea sau suge piept;</li><li>Vomită după fiecare alimentație;</li><li>Are&nbsp;convulsii;</li><li>E letargic (foarte somnolent) sau inconştient;</li><li>Are febră (peste 38 C) sau temperatură sub 36 C;&nbsp;</li><li>Devine brusc palid sau se învineţeşte;&nbsp;</li><li>Se mişcă mai puţin decât de obicei;</li><li>Plânge fără întrerupere şi refuză să fie alăptat.</li><li>Respiră greu, zgomotos sau are respitație accelerată:&nbsp;</li></ol><ul><li>pentru copilul până la&nbsp;2 luni, mai mult de 60 de respirații pe minut;</li><li>copilul cu vârstă cuprinsă între 2 luni și 12 luni, mai mult de 50 de respirații pe minut;&nbsp;</li><li>copilul de la 12 luni până la 5 ani, mai mult de 40 de respirații pe minut.</li></ul><p><br></p><p><strong style=\"background-color: rgb(255, 255, 255);\"><em>Atenție</em> </strong><span style=\"background-color: rgb(255, 255, 255);\"> : Medicul privilegiază consultațiile video! Toate consultațiile sînt absolut confidențiale și sînt protejate de secretul medical.</span></p>",
             "excperience_start_year": 2012,
             "price": 350.0,
@@ -493,7 +493,7 @@
                         "title": {
                             "ru": "Пневмолог",
                             "ro": "Pneumolog",
-                            "en": "pneumologist"
+                            "en": "Pneumologist"
                         },
                         "description": {
                             "ru": "Занимается диагностикой и лечением  заболеваний органов дыхания",
@@ -918,7 +918,7 @@
                 {
                     "id": 214435,
                     "weekday": 5,
-                    "start": "2023-05-20T11:00:00Z",
+                    "start": "2023-07-20T11:00:00Z",
                     "end": "2023-05-20T11:45:00Z",
                     "is_free": true,
                     "added_by_doctor": false,
