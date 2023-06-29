@@ -7,7 +7,7 @@ import  Users  from "../../local/Users.json";
 import { NoteLanguage } from "../../contexts/NoteLanguage";
 
 export default function User({ userMenuHandler, state }) {
-    const language = useContext(NoteLanguage)
+    const [language] = useContext(NoteLanguage)
     
     const currentUser = useMemo(()=>{
         function setAvatar(name) {

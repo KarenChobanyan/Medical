@@ -1,0 +1,113 @@
+ {
+    "translation": {
+        "HeaderTexts": {
+            "firstNav": "Как пользоваться?",
+            "secondNav": "Мои записи",
+            "thirdNav": "Записаться к врачу"
+        },
+        "UserMenu": {
+            "myProfile": "Мой профиль",
+            "balance": "Пополнить баланс",
+            "faq": "FAQ",
+            "logOut": "Выйти"
+        },
+        "Body": {
+            "bodyFirtSection": {
+                "boldText": {
+                    "underLine": "Онлайн консультации ",
+                    "ordinary": "от врачей специалистов 24/7"
+                },
+                "thinText": {
+                    "underLinePartOne": " сейчас",
+                    "underLinePartTwo": "предварительной записи",
+                    "ordinaryFirst": "Проконсультируйтесь ",
+                    "ordinaryMiddle": " или по ",
+                    "ordinaryLast": " со своего компьютера или c помощью нашего приложения, доступного в "
+                },
+                "whiteButtonText": "Записаться",
+                "blueButtonText": "Как это работает?"
+            },
+            "bodySecondSection": {
+                "header": "Записаться к врачу",
+                "underHeader": "Более 1500 врачей и более 50 разных специализаций",
+                "aptList": {
+                    "firstLine": "Прием в удобное для вас время, без визита в клинику",
+                    "secondLine": "Врачи с опытом работы более 8 лет",
+                    "thirdLine": "Понятно объясним причину недуга и дадим подробную рекомендацию"
+                },
+                "buttonText": "Записаться"
+            }
+        },
+        "Notes": {
+            "buttonShowNotes": "мои записи",
+            "noteNavs": {
+                "allNotes": "Все записи",
+                "upcoming": "Предстоящие",
+                "past": "Прошедшие",
+                "canceled": "Отмененные",
+                "noResult": "Hет результата для показа"
+            },
+            "noteBox": {
+                "textIkonVideocall": "Видео связь",
+                "buttonScheduled": {
+                    "scheduled": "Запланировано",
+                    "done": "Состоялась"
+                },
+                "blueButton": "Посмотреть запись",
+                "whiteButton": "Посмотреть постановление",
+                "doctorExperience": {
+                    "experience": "Стаж",
+                    "year": "лет"
+                }
+            }
+        },
+        "Footter": {
+            "firstBox": {
+                "firstLine": "Онлай- консульации специалистов врачей, то что предлагает данный сервис.",
+                "secondLine": "В нашем веб и мобильном приложении вы найдете врачей экспертов, которые окажут вам персонализированную помощь онлайн 24/7"
+            },
+            "secondBox": {
+                "firstLine": "Как пользоваться",
+                "secondLine": "FAQ (ответы на вопросы)",
+                "thirdLine": "Для врачей",
+                "forthLine": "О сервисе",
+                "fifthLine": "Контакты",
+                "sixthLine": "Пользовательское соглашение"
+            },
+            "thirdBox": {
+                "email": "allodoc@mail.com",
+                "adress": "г. Москва. ул, Ленина 54, офис 51",
+                "workingTime": "Пн-Вс с 09:00 до 18:00",
+                "phoneNumber": "8 800 555 35 35"
+            }
+        },
+        "OtherTexts": {
+            "doctorServicePrice": {
+                "consultation": " консультация",
+                "minutes": "минут"
+            },
+            "doctorPage": {
+                "titleTexts": {
+                    "nextEntry": "Ближайшая запись",
+                    "education": "Образование",
+                    "specializes": "Специализируется на лечении",
+                    "additionally": "Дополнительно"
+                },
+                "calendar": {
+                    "headerBoldText": "Записаться на прием онлайн",
+                    "headerThinText": "Пожалуйста заполните следующую информацию"
+                }
+            },
+            "userBalancePage": {
+                "balancetext": "Баланс",
+                "topUpBalanceButtonText": "Пополнить счет",
+                "userPaymentHistory": {
+                    "userPaymentHistoryHeader": "История платежей",
+                    "today": "За сегодня",
+                    "month": "За месяц",
+                    "allTime": "За все время"
+                }
+            }
+        }
+    }
+}

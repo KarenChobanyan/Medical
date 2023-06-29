@@ -1,0 +1,115 @@
+{
+    "translation":{
+        "HeaderTexts": {
+            "firstNav": "How to use?",
+            "secondNav": "My notes",
+            "thirdNav": "To make an appointment"
+        },
+        "UserMenu": {
+            "myProfile": "My profile",
+            "balance": "Top up balance",
+            "faq": "FAQ",
+            "logOut": "Log out"
+        },
+        "Body": {
+            "bodyFirtSection": {
+                "boldText": {
+                    "underLine": "Online consultations ",
+                    "ordinary": "from specialist doctors 24/7"
+                },
+                "thinText": {
+                    "underLinePartOne": " now",
+                    "underLinePartTwo": "pre-booking",
+                    "ordinaryFirst": "Consult ",
+                    "ordinaryMiddle": " or by ",
+                    "ordinaryLast": " from your computer or using our application, available in "
+                },
+                "whiteButtonText": "Sign up",
+                "blueButtonText": "How it works?"
+            },
+            "bodySecondSection": {
+                "header": "To make an appointment",
+                "underHeader": "More than 1500 doctors and more than 50 different specializations",
+                "buttonText": "Sign up",
+                "aptList": {
+                    "firstLine": "Reception at a convenient time for you, without a visit to the clinic",
+                    "secondLine": "Doctors with over 8 years of experience",
+                    "thirdLine": "We will clearly explain the cause of the disease and give a detailed recommendation."
+                }
+            }
+        },
+    
+        "Notes": {
+            "buttonShowNotes": "my notes",
+            "noteNavs": {
+                "allNotes": "All notes",
+                "upcoming": "Upcoming",
+                "past": "Past",
+                "canceled": "Canceled",
+                "noResult": "No result to show"
+            },
+            "noteBox": {
+                "textIkonVideocall": "Video call",
+                "buttonScheduled": {
+                    "scheduled": "Scheduled",
+                    "done": "Took place"
+                },
+                "blueButton": "View entry",
+                "whiteButton": "View ruling",
+                "doctorExperience": {
+                    "experience": "Experience",
+                    "year": "years"
+                }
+            }
+        },
+        "Footter": {
+            "firstBox": {
+                "firstLine": "Online consultations of specialist doctors, what this service offers.",
+                "secondLine": "In our web and mobile application you will find expert doctors who will provide you with personalized assistance online 24/7"
+            },
+            "secondBox": {
+                "firstLine": "How to use",
+                "secondLine": "FAQ (answers to questions)",
+                "thirdLine": "For doctors",
+                "forthLine": "About the service",
+                "fifthLine": "Contacts",
+                "sixthLine": "Terms of use"
+            },
+            "thirdBox": {
+                "email": "allodoc@mail.com",
+                "adress": "Moscow city. st, Lenina 54, office 51",
+                "workingTime": "Mon-Sun from 09:00 to 18:00",
+                "phoneNumber": "8 800 555 35 35"
+            }
+        },
+        "OtherTexts": {
+            "doctorServicePrice": {
+                "consultation": " consultation",
+                "minutes": "minutes"
+            },
+            "doctorPage": {
+                "titleTexts": {
+                    "nextEntry": "Next entry",
+                    "education": "Education",
+                    "specializes": "Specializes in treatment",
+                    "additionally": "Additionally"
+                },
+                "calendar": {
+                    "headerBoldText": "Make an appointment online",
+                    "headerThinText": "Please fill in the following information"
+                }
+            },
+            "userBalancePage": {
+                "balancetext": "Balance",
+                "topUpBalanceButtonText": "Top up account",
+                "userPaymentHistory": {
+                    "userPaymentHistoryHeader": "Payment history",
+                    "today": "For today",
+                    "month": "Per month",
+                    "allTime": "During all this time"
+                }
+            }
+        }
+    }
+   
+}

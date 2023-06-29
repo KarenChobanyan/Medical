@@ -3,12 +3,11 @@ import MyNoteDiv from "./MyNotesList/ButtonMyNotes";
 import MyNotesList from "./MyNotesList/MyNotesList";
 import AppointmentDiv from "./body/BodySecondLine/AppointmnetDiv";
 import BodyMain from "./body/BodyFirstLine/BodyMain";
-import { useContext, useState } from "react";
-import { Language } from "./contexts/langContext";
+import { useTranslation } from "react-i18next";
+import { useState } from "react";
 
 export default function BodyDiv({ userMenuState }) {
-    const translate = useContext(Language);
-    const currentText = translate.Notes.buttonShowNotes
+    const {t} = useTranslation()
     const [noteVisibility, setNoteVisibility] = useState(false)
     function showMyNotes() {
         if (noteVisibility == false) {
@@ -21,7 +20,7 @@ export default function BodyDiv({ userMenuState }) {
         < div className="bodyDiv">
             <BodyMain menuState={userMenuState} />
             <AppointmentDiv />
-            <MyNoteDiv text={currentText} clickHendler={showMyNotes} />
+            <MyNoteDiv text={t(`Notes.buttonShowNotes`)} clickHendler={showMyNotes} />
             {noteVisibility && <MyNotesList />}
         </div>
     )

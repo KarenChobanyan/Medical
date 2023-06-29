@@ -1,11 +1,11 @@
-import { useContext, useReducer } from "react";
+import { useReducer } from "react";
 import { DoctorList } from "../contexts/doctorList";
-import { Language } from "../contexts/langContext";
 import * as NoteList from "../data.json";
 import NoResult from "./NoResults";
 import Note from "./Note";
 import ListNav from "./NoteListNav";
 import NoteListNavDiv from "./NoteListNavDiv";
+import { useTranslation } from "react-i18next";
 const data = { ...NoteList };
 const doctors = data.results;
 let upcomingNotes = null;
@@ -33,24 +33,23 @@ function reducer(state, action) {
 
 
 export default function MyNotesList() {
-    const translate = useContext(Language)
-    const currentText = translate.Notes.noteNavs
-
+    const {t} = useTranslation()
     const [filteredDoctors, dispatch] = useReducer(reducer, doctors)
 
     return (
         <>
             <div className="myNoteListMainDiv">
                 <NoteListNavDiv >
-                    <ListNav dispatchFn={() => dispatch({ type: "allNotes" })} text={currentText.allNotes} style={filteredDoctors == doctors ? "choosenNav" : "noteNav"} />
-                    <ListNav dispatchFn={() => dispatch({ type: "upcoming" })} text={currentText.upcoming} style={filteredDoctors == upcomingNotes ? "choosenNav" : "noteNav"} />
-                    <ListNav dispatchFn={() => dispatch({ type: "past" })} text={currentText.past} style={filteredDoctors == pastNotes ? "choosenNav" : "noteNav"} />
-                    <ListNav dispatchFn={() => dispatch({ type: "cenceled" })} text={currentText.canceled} style={filteredDoctors == cenceledNotes ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "allNotes" })} text={t(`Notes.noteNavs.allNotes`)} style={filteredDoctors == doctors ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "upcoming" })} text={t(`Notes.noteNavs.upcoming`)} style={filteredDoctors == upcomingNotes ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "past" })} text={t(`Notes.noteNavs.past`)} style={filteredDoctors == pastNotes ? "choosenNav" : "noteNav"} />
+                    <ListNav dispatchFn={() => dispatch({ type: "cenceled" })} text={t(`Notes.noteNavs.canceled`)} style={filteredDoctors == cenceledNotes ? "choosenNav" : "noteNav"} />
                 </NoteListNavDiv>
 
                 {filteredDoctors.length > 0 ? filteredDoctors.map((el) => <Note
                     doctor={el}
-                />) : <NoResult text={currentText.noResult} key={Math.random()} />}
+                    key={Math.random()}
+                />) : <NoResult text={t(`Notes.noteNavs.noResult`)} key={Math.random()} />}
             </div>
         </>
     )

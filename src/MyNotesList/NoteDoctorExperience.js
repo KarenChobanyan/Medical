@@ -1,10 +1,9 @@
-import { useContext } from "react"
-import { Language } from "../contexts/langContext"
+import { useTranslation } from "react-i18next"
 
 export default function NoteDoctorExperience({ experience }) {
-    const translate = useContext(Language)
-    const currentText = translate.Notes.noteBox.doctorExperience
+    const {t} = useTranslation()
+
     return (
-        <div className="noteDoctorExperience">{currentText.experience} {experience} {currentText.year}</div>
+        <div className="noteDoctorExperience">{t(`Notes.noteBox.doctorExperience.experience`)} {experience} {t(`Notes.noteBox.doctorExperience.year`)}</div>
     )
 }

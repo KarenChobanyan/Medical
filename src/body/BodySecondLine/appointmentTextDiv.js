@@ -1,19 +1,18 @@
-import { useContext } from "react";
+import { useTranslation } from "react-i18next";
 import ButtonForApt from "./ButtonForAppointment";
 import AppointThinText from "./appointThinText";
 import AppointBoldText from "./appointmentBoldtext";
 import AppListText from "./appointmentListtext";
-import { Language } from "../../contexts/langContext";
 
 export default function AppTextDiv(){
-    const translate = useContext(Language)
-    const currentText = translate.Body.bodySecondSection
+    const {t} = useTranslation();
+
     return (
         <div className="appTextDiv">
-            <AppointBoldText text={currentText.header}/>
-            <AppointThinText text={currentText. underHeader}/>
+            <AppointBoldText text={t(`Body.bodySecondSection.header`)}/>
+            <AppointThinText text={t(`Body.bodySecondSection.underHeader`)}/>
             <AppListText/>
-            <ButtonForApt text={currentText.buttonText}/>
+            <ButtonForApt text={t(`Body.bodySecondSection.buttonText`)}/>
         </div>
     )
 }

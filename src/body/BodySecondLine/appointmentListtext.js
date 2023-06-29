@@ -1,15 +1,14 @@
-import { useContext } from "react";
+import { useTranslation } from "react-i18next";
 import AppListLine from "./AppListLine";
-import { Language } from "../../contexts/langContext";
 
 export default function AppListText(){
-    const translate = useContext(Language)
-    const currentText = translate.Body.bodySecondSection.aptList
+    const {t} = useTranslation()
+
     return(
         <div className="appListTextBox">
-            <AppListLine text={currentText.firstLine}/>
-            <AppListLine text={currentText.secondLine}/>
-            <AppListLine text={currentText.thirdLine}/>
+            <AppListLine text={t(`Body.bodySecondSection.aptList.firstLine`)}/>
+            <AppListLine text={t(`Body.bodySecondSection.aptList.secondLine`)}/>
+            <AppListLine text={t(`Body.bodySecondSection.aptList.thirdLine`)}/>
         </div>
     )
 }

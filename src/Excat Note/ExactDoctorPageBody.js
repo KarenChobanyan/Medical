@@ -4,14 +4,14 @@ import hat from "../Img/Exact-Doctor-Page/hat.png";
 import plus from '../Img/Exact-Doctor-Page/+.png';
 import ikonOther from "../Img/Exact-Doctor-Page/other.png"
 import { useContext, useMemo } from "react";
-import { Language } from "../contexts/langContext";
 import { Doctor } from "../contexts/ExactDoctor";
 import { NoteLanguage } from "../contexts/NoteLanguage";
 import DoctorPageCalendarHeader from "./DoctorPageCalendarHeder";
+import { useTranslation } from "react-i18next";
 
 export default function ExactDoctorPageBody() {
-    const translation = useContext(Language)
-    const language = useContext(NoteLanguage)
+    const  {t} = useTranslation()
+    const [language] = useContext(NoteLanguage)
     const [doctor] = useContext(Doctor)
 
     const exactDoctor = useMemo(()=>{
@@ -23,11 +23,11 @@ export default function ExactDoctorPageBody() {
             date:getDate(doctor.near_date),
             specialization : doctor.user_categories[0].category.description,
             othetInformation : doctor.user_categories[0].category.full_description,
-            currentText : translation.OtherTexts.doctorPage.titleTexts,
-            calendarHeaderBoldText : translation.OtherTexts.doctorPage.calendar.headerBoldText,
-            calendarHeaderThinText : translation.OtherTexts.doctorPage.calendar.headerThinText,
+            currentText : t(`OtherTexts.doctorPage.titleTexts`),
+            calendarHeaderBoldText :t(`OtherTexts.doctorPage.calendar.headerBoldText`), 
+            calendarHeaderThinText : t(`OtherTexts.doctorPage.calendar.headerThinText`),
         }
-    },[translation,language,doctor])
+    },[language,doctor])
 
    
     return (

@@ -1,28 +1,28 @@
 import { useContext, useMemo } from "react";
 import UsersMenu from "../UsersProfile";
 import UserExactBalanceDiv from "./UserExactBalanceDiv";
-import { Language } from "../../../contexts/langContext";
 import Users from "../../../local/Users.json";
 import UserPaymentHistoryNavDiv from "./UserPaymentHistoryNavDiv";
 import UserPayments from "./UserPayments";
 import Payment from "./Payment";
 import { NoteLanguage } from "../../../contexts/NoteLanguage";
+import { useTranslation } from "react-i18next";
 
 export default function UserBalancePage({ state }) {
-    const language = useContext(NoteLanguage)
-    const translation = useContext(Language)
+    const [language] = useContext(NoteLanguage);
+    const { t } = useTranslation()
     const data = useMemo(() => {
         return {
-            balanceText: translation.OtherTexts.userBalancePage.balancetext,
-            topUpBalanceButtonText: translation.OtherTexts.userBalancePage.topUpBalanceButtonText,
-            userPaymentHistoryHeader: translation.OtherTexts.userBalancePage.userPaymentHistory.userPaymentHistoryHeader,
-            textToday: translation.OtherTexts.userBalancePage.userPaymentHistory.today,
-            textMonth: translation.OtherTexts.userBalancePage.userPaymentHistory.month,
-            textAllTime: translation.OtherTexts.userBalancePage.userPaymentHistory.allTime,
+            balanceText: t("OtherTexts.userBalancePage.balancetext"),
+            topUpBalanceButtonText: t("OtherTexts.userBalancePage.topUpBalanceButtonText"),
+            userPaymentHistoryHeader: t("OtherTexts.userBalancePage.userPaymentHistory.userPaymentHistoryHeader"),
+            textToday: t("OtherTexts.userBalancePage.userPaymentHistory.today"),
+            textMonth: t("OtherTexts.userBalancePage.userPaymentHistory.month"),
+            textAllTime: t("OtherTexts.userBalancePage.userPaymentHistory.allTime"),
             userData: Users,
             userPaymentData: Users.payments
         }
-    }, [translation, Users])
+    }, [Users, t]);
 
 
     return (
@@ -49,7 +49,7 @@ export default function UserBalancePage({ state }) {
                             date={el.date}
                             paymentType={language == "ru" ? el.paymentType.ru : el.paymentType.en}
                             amount={el.amount}
-                            key={el.amount + el.date+ Math.random()}
+                            key={el.amount + el.date + Math.random()}
                         />
                     })}
                 </UserPayments>

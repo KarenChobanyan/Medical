@@ -1,18 +1,23 @@
-import { useCallback, useContext, useState } from 'react'
-import { SetLaguage } from '../../contexts/SetLanguage'
+import { useCallback, useState } from 'react'
+import i18n from '../../local/i18n';
+import { useContext } from 'react';
+import { NoteLanguage } from '../../contexts/NoteLanguage';
 
 export default function CheckLang() {
-    const changeLanguage = useContext(SetLaguage)
-    const [language, setlanguage] = useState("RU")
-    
-    const checkLanguage = useCallback((e)=>{
-        setlanguage(e.target.innerText)
-        changeLanguage(e.target.innerText)
-    },[language])
+    const [pageLanguage, setPageLanguage] = useContext(NoteLanguage)
+    const [language, setlanguage] = useState(localStorage.getItem("i18nextLng"))
+
+    const changeLanguage = useCallback((e) => {
+        setlanguage(e.target.innerText.toLowerCase())
+        i18n.changeLanguage(e.target.innerText.toLowerCase())
+        setPageLanguage(e.target.innerText.toLowerCase())
+    }, [language, pageLanguage]);
+
+
     return (
         <div className="forCheckLangBox">
-            <div onClick={checkLanguage} className={language == "RU" ? "checkedLanguage" : "language"}><span>RU</span></div>
-            <div onClick={checkLanguage} className={language == "EN" ? "checkedLanguage" : "language"}><span>EN</span></div>
+            <div onClick={changeLanguage} className={language == "ru" ? "checkedLanguage" : "language"}><span>RU</span></div>
+            <div onClick={changeLanguage} className={language == "en" ? "checkedLanguage" : "language"}><span>EN</span></div>
         </div>
     )
 }

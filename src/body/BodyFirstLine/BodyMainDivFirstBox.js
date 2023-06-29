@@ -1,18 +1,16 @@
-import { useContext } from "react";
+import { useTranslation } from "react-i18next";
 import BlueButton from "./BlueButton";
 import WhiteButton from "./WhiteButton";
-import { Language } from "../../contexts/langContext";
 
 export default function BodyFirstBox(){
-    const language = useContext(Language)
-    const currentText = language.Body.bodyFirtSection
+    const {t} = useTranslation()
     return(
         <div className="bodyMainFirstBox">
-            <div className="bodyMainBoldText"><span className="mainBoldUnderline">{currentText. boldText.underLine}</span>{currentText. boldText.ordinary}</div>
-            <div className="bodyMainThinText">{currentText.thinText.ordinaryFirst} <span className="mainThinTextUnderline"> {currentText.thinText.underLinePartOne} </span>{currentText.thinText.ordinaryMiddle}<span className="mainThinTextUnderline"> {currentText.thinText.underLinePartTwo} </span>{currentText.thinText.ordinaryLast} <span className="mainThinTextLink"> App Store</span> и <span className="mainThinTextLink">Google Play</span></div>
+            <div className="bodyMainBoldText"><span className="mainBoldUnderline">{t(`Body.bodyFirtSection.boldText.underLine`)}</span>{t(`Body.bodyFirtSection.boldText.ordinary`)}</div>
+            <div className="bodyMainThinText">{t(`Body.bodyFirtSection.thinText.ordinaryFirst`)} <span className="mainThinTextUnderline"> {t(`Body.bodyFirtSection.thinText.underLinePartOne`)} </span>{t(`Body.bodyFirtSection.thinText.ordinaryMiddle`)}<span className="mainThinTextUnderline"> {t(`Body.bodyFirtSection.thinText.underLinePartTwo`)} </span>{t(`Body.bodyFirtSection.thinText.ordinaryLast`)} <span className="mainThinTextLink"> App Store</span> и <span className="mainThinTextLink">Google Play</span></div>
             <div className="bodyMainButtonBox">
-                <WhiteButton text={currentText. whiteButtonText}/>
-                <BlueButton text={currentText. blueButtonText}/>
+                <WhiteButton text={t(`Body.bodyFirtSection.whiteButtonText`)}/>
+                <BlueButton text={t(`Body.bodyFirtSection.blueButtonText`)}/>
             </div>
         </div>
     )

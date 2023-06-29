@@ -1,4 +1,3 @@
-import { useParams } from "react-router-dom";
 import MyNotesList from "./MyNotesList";
 import UsersMenu from "../Header/User/UsersProfile";
 

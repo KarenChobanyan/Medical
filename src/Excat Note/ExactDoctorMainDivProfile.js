@@ -1,15 +1,15 @@
 import { useContext } from "react";
 import ExactDoctorProfile from "./ExactDoctorProfile";
 import ExactDoctorServicePriceSheet from "./ExactDoctorServicePriceSheet";
-import { Language } from "../contexts/langContext";
 import { Doctor } from "../contexts/ExactDoctor";
+import { useTranslation } from "react-i18next";
 
 export default function ExactDoctorMainDivProfile() {
+    const {t} = useTranslation()
     const [doctor] = useContext(Doctor)
-    const translation = useContext(Language)
     const price = doctor.price
-    const priceText = `${price} ₽ / ${translation.OtherTexts.doctorServicePrice.consultation}`
-    const durationText = `30 ${translation.OtherTexts.doctorServicePrice.minutes}`
+    const priceText = `${price} ₽ / ${t(`OtherTexts.doctorServicePrice.consultation`)}`
+    const durationText = `30 ${t(`OtherTexts.doctorServicePrice.minutes`)}`
     return (
         <div className="exactDoctorMainDivProfile">
             <ExactDoctorProfile />

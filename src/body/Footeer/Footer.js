@@ -10,37 +10,36 @@ import Message from "../../Img/Footer/Message.png"
 import Location from "../../Img/Footer/Location.png"
 import Clock from "../../Img/Footer/Clock.png"
 import Phone from "../../Img/Footer/Phone.png"
-import { useContext } from "react"
-import { Language } from "../../contexts/langContext"
+import { useTranslation } from "react-i18next"
 
-export default function Footer(){
-    const translate = useContext(Language)
-    const currentText = translate.Footter
-    return(
+export default function Footer() {
+    const { t } = useTranslation();
+
+    return (
         <div className="footer">
             <div className="footerFirstCol">
-          <FooterMainLogo />
-          <FooterFirstColThinText text={currentText.firstBox.firstLine}/>
-          <FooterFirstColThinText text={currentText.firstBox.secondLine}/>
-          <div className="footerFirstColSocialIkonDiv">
-            <FooterFirstColsocialIkon image={instagramIkon}/>
-            <FooterFirstColsocialIkon image={faceBookIkon}/>
-            <FooterFirstColsocialIkon image={youTubeIkon}/>
-          </div>
+                <FooterMainLogo />
+                <FooterFirstColThinText text={t(`Footter.firstBox.firstLine`)} />
+                <FooterFirstColThinText text={t(`Footter.firstBox.secondLine`)} />
+                <div className="footerFirstColSocialIkonDiv">
+                    <FooterFirstColsocialIkon image={instagramIkon} />
+                    <FooterFirstColsocialIkon image={faceBookIkon} />
+                    <FooterFirstColsocialIkon image={youTubeIkon} />
+                </div>
             </div>
             <div className="footerSecondCol">
-                <FooterSecondColText text={currentText.secondBox.firstLine}/>
-                <FooterSecondColText  text={currentText.secondBox.secondLine}/>
-                <FooterSecondColText  text={currentText.secondBox.thirdLine}/>
-                <FooterSecondColText  text={currentText.secondBox.forthLine}/>
-                <FooterSecondColText  text={currentText.secondBox.fifthLine}/>
-                <FooterSecondColText  text={currentText.secondBox.sixthLine}/>
+                <FooterSecondColText text={t(`Footter.secondBox.firstLine`)} />
+                <FooterSecondColText text={t(`Footter.secondBox.secondLine`)} />
+                <FooterSecondColText text={t(`Footter.secondBox.thirdLine`)} />
+                <FooterSecondColText text={t(`Footter.secondBox.forthLine`)} />
+                <FooterSecondColText text={t(`Footter.secondBox.fifthLine`)} />
+                <FooterSecondColText text={t(`Footter.secondBox.sixthLine`)} />
             </div>
             <div className="footerThirdCol">
-                <FooterThirdColElement image={Message} text={currentText.thirdBox.email}/>
-                <FooterThirdColElement image={Location} text={currentText.thirdBox.adress}/>
-                <FooterThirdColElement image={Clock} text={currentText.thirdBox.workingTime}/>
-                <FooterThirdColElement image={Phone} text={currentText.thirdBox.phoneNumber}/>
+                <FooterThirdColElement image={Message} text={t(`Footter.thirdBox.email`)} />
+                <FooterThirdColElement image={Location} text={t(`Footter.thirdBox.adress`)} />
+                <FooterThirdColElement image={Clock} text={t(`Footter.thirdBox.email`)} />
+                <FooterThirdColElement image={Phone} text={t(`Footter.thirdBox.phoneNumber`)} />
             </div>
         </div>
     )
